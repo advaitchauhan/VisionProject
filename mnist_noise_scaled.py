@@ -17,8 +17,6 @@ def get_sigma(eta, gamma, step):
     dtype = eta.dtype
     global_step = math_ops.cast(step, dtype)
 
-    print math_ops.div(eta, math_ops.pow(math_ops.add(math_ops.cast(1,dtype), global_step), gamma))
-
     return math_ops.div(eta, math_ops.pow(math_ops.add(math_ops.cast(1,dtype), global_step), gamma))
 
 
@@ -148,6 +146,7 @@ def percept10(noise, lr, n_hidden, numEpochs):
 
         # Training cycle
         for epoch in range(training_epochs):
+            #scaling factor should be dependent on epoch?????
             avg_cost = 0.
             total_batch = int(mnist.train.num_examples/batch_size)
             # Loop over all batches
@@ -174,17 +173,17 @@ def percept10(noise, lr, n_hidden, numEpochs):
 #experiment where we compare gradient noise vs no gradient noise for 15 epochs 
 #(return accuracy results of 10 trials)
 def test1():
-    noNoiseAcc = [0]*20
-    noiseAcc = [0]*20
+    noNoiseAcc = [0]*10
+    noiseAcc = [0]*10
     
     #With no noise
     print("NO NOISE!!!")
-    for i in range(20):
+    for i in range(10):
         noNoiseAcc[i] = percept10(noise=0, lr =.005, n_hidden = 50, numEpochs = 15)
         
     #With noise
     print("NOISE!!!")
-    for i in range(20):
+    for i in range(10):
         noiseAcc[i] = percept10(noise=1, lr =.005, n_hidden = 50, numEpochs = 15)
         
     return noNoiseAcc, noiseAcc

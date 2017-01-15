@@ -3,8 +3,7 @@ from tensorflow.examples.tutorials.mnist import input_data
 import tensorflow as tf
 from tensorflow.python.framework import ops
 from tensorflow.python.ops import random_ops
-from tensorflow.python.ops import math_ops
-import numpy as np
+from numpy import np
 
 def percept10(mnist, noise, lr, n_hidden, numEpochs, wdev, bdev):
 
@@ -95,41 +94,28 @@ def percept10(mnist, noise, lr, n_hidden, numEpochs, wdev, bdev):
 
     # Define loss and optimizer
     cost = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(pred, y))
-    optimizer = tf.train.GradientDescentOptimizer(learning_rate=learning_rate)
 
-    grads_and_vars = optimizer.compute_gradients(cost)
-    gradients, variables = zip(*grads_and_vars)
-    noisy_gradients = []
+    if (noise == 0):
+        train_opt = tf.train.GradientDescentOptimizer(learning_rate=learning_rate).minimize(cost)
+    else:
+        optimizer = tf.train.GradientDescentOptimizer(learning_rate=learning_rate)
 
-    for gradient in gradients:
-        step = tf.Variable(0, name='global_step', trainable=False)
-        print step
-        if gradient is None:
-          noisy_gradients.append(None)
-          continue
-        if isinstance(gradient, ops.IndexedSlices):
-          gradient_shape = gradient.dense_shape
-        else:
-          gradient_shape = gradient.get_shape()
+        grads_and_vars = optimizer.compute_gradients(cost)
+        gradients, variables = zip(*grads_and_vars)
+        noisy_gradients = []
+        for gradient in gradients:
+            if gradient is None:
+              noisy_gradients.append(None)
+              continue
+            if isinstance(gradient, ops.IndexedSlices):
+              gradient_shape = gradient.dense_shape
+            else:
+              gradient_shape = gradient.get_shape()
+            noise = random_ops.truncated_normal(gradient_shape) * gradient_noise_scale
+            noisy_gradients.append(gradient + noise)
 
-        eta = .01
-        gamma = .55
-        eta = ops.convert_to_tensor(eta, name="eta")
-        dtype = eta.dtype
-        global_step = math_ops.cast(step, dtype)
-
-        sigma = math_ops.div(eta, math_ops.pow(math_ops.add(math_ops.cast(1,dtype), global_step), gamma))
-        # prod = (1+global_step)**gamma
-        # #print (prod)
-        # sigma = eta / prod
-
-        noise = random_ops.truncated_normal(gradient_shape, stddev=sigma) * gradient_noise_scale  # returns a tesnor w/ shape + specified vals
-        print (math_ops.add(gradient, noise))
-        noisy_gradients.append(math_ops.add(gradient, noise))
-
-    #print (noisy_gradients)
-    noisy_grads_and_vars = list(zip(noisy_gradients, variables))
-    train_opt = optimizer.apply_gradients(noisy_grads_and_vars, global_step=step)
+        noisy_grads_and_vars = list(zip(noisy_gradients, variables))
+        train_opt = optimizer.apply_gradients(noisy_grads_and_vars)
 
 
     # Initializing the variables
@@ -168,56 +154,57 @@ def percept10(mnist, noise, lr, n_hidden, numEpochs, wdev, bdev):
 def testMain():
 
     mnist = input_data.read_data_sets("/tmp/data/", one_hot=True)
-    n = 2     #how many trials per experiment?
-    eps = 5 #how many epochs per net?
+    n = 10     #how many trials per experiment?
+    eps = 10  #how many epochs per net?
     
     #simple init
     noise_init0 = [0]*n
-    #znoise_init0 = [0]*n
+    znoise_init0 = [0]*n
     
     #good init
     noise_init1 = [0]*n
-    #znoise_init1 = [0]*n
+    znoise_init1 = [0]*n
     
     #my init
     noise_initm = [0]*n
-   # znoise_initm = [0]*n
+    znoise_initm = [0]*n
     #my init tests (re)
 
-    print("my init tests*******************")
+    print("my init tests")
     for i in range(n):
-       # znoise_initm[i] = percept10(mnist, noise=0, lr =.005, n_hidden = 50, numEpochs = eps, wdev = 1/math.sqrt(50), bdev = 1/math.sqrt(50))
+        znoise_initm[i] = percept10(mnist, noise=0, lr =.005, n_hidden = 50, numEpochs = eps, wdev = 1/math.sqrt(50), bdev = 1/math.sqrt(50))
         noise_initm[i] = percept10(mnist, noise=1, lr =.005, n_hidden = 50, numEpochs = eps, wdev =  1/math.sqrt(50), bdev = 1/math.sqrt(50))
     
     
     #simple init tests (.01 stdev for weights and biases)
-    print("simple init tests*******************")
+    print("simple init tests")
     for i in range(n):
-      #  znoise_init0[i] = percept10(mnist, noise=0, lr =.005, n_hidden = 50, numEpochs = eps, wdev = .01, bdev = .01)
+        znoise_init0[i] = percept10(mnist, noise=0, lr =.005, n_hidden = 50, numEpochs = eps, wdev = .01, bdev = .01)
         noise_init0[i] = percept10(mnist, noise=1, lr =.005, n_hidden = 50, numEpochs = eps, wdev = .01, bdev = .01)
         
-    # #good init (derived in He et. al) tests
-    # print("good init tests*******************")
-    # for i in range(n):
-    #    # znoise_init1[i] = percept10(mnist, noise=0, lr =.005, n_hidden = 50, numEpochs = eps, wdev = math.sqrt(2/50), bdev = 0)
-    #     noise_init1[i] = percept10(mnist, noise=1, lr =.005, n_hidden = 50, numEpochs = eps, wdev =  math.sqrt(2/50), bdev = 0)
+    #good init (derived in He et. al) tests
+    print("good init tests")
+    for i in range(n):
+        znoise_init1[i] = percept10(mnist, noise=0, lr =.005, n_hidden = 50, numEpochs = eps, wdev = math.sqrt(2/50), bdev = 0)
+        noise_init1[i] = percept10(mnist, noise=1, lr =.005, n_hidden = 50, numEpochs = eps, wdev =  math.sqrt(2/50), bdev = 0)
         
-    return noise_init0, noise_init1, noise_initm
+    return noise_init0, znoise_init0, noise_init1, znoise_init1, noise_initm, znoise_initm
 
 
-n_i0, n_i1, n_im = testMain()
+n_i0, zn_i0, n_i1, zn_i1, n_im, zn_im = testMain()
 
 import pickle
-import numpy as np
+
 # obj0, obj1, obj2 are created here...
 
 # Saving the objects:
-with open('mnist_results_scaled.pickle', 'wb') as f:  # Python 3: open(..., 'wb')
-    pickle.dump([n_i0, n_i1, n_im], f)
+with open('mnist_results.pickle', 'wb') as f:  # Python 3: open(..., 'wb')
+    pickle.dump([n_i0, zn_i0, n_i1, zn_i1, n_im, zn_im], f)
 
 # Getting back the objects:
-with open('mnist_results_scaled.pickle', 'rb') as f:  # Python 3: open(..., 'rb')
-    n_i0, n_i1, n_im = pickle.load(f)
+with open('mnist_results.pickle', 'rb') as f:  # Python 3: open(..., 'rb')
+    n_i0, zn_i0, n_i1, zn_i1, n_im, zn_im = pickle.load(f)
+
 
     print ("-----------------------")
     print("Simple Init, Noise")
@@ -228,6 +215,15 @@ with open('mnist_results_scaled.pickle', 'rb') as f:  # Python 3: open(..., 'rb'
     print (np.median(n_i0))
     print ("stddev: ")
     print (np.std(n_i0))
+    print ("\n")
+    print("Simple Init, No Noise")
+    print(zn_i0)
+    print("mean: ")
+    print (np.mean(zn_i0))
+    print("median: ")
+    print (np.median(zn_i0))
+    print ("stddev: ")
+    print (np.std(zn_i0))
 
     print ("-----------------------")
     print("Good Init, Noise")
@@ -238,6 +234,15 @@ with open('mnist_results_scaled.pickle', 'rb') as f:  # Python 3: open(..., 'rb'
     print (np.median(n_i1))
     print ("stddev: ")
     print (np.std(n_i1))
+    print ("\n")
+    print("Good Init, No Noise")
+    print(zn_i1)
+    print("mean: ")
+    print (np.mean(zn_i1))
+    print("median: ")
+    print (np.median(zn_i1))
+    print ("stddev: ")
+    print (np.std(zn_i1))
 
     print ("-----------------------")
     print("My Init, Noise")
@@ -248,7 +253,13 @@ with open('mnist_results_scaled.pickle', 'rb') as f:  # Python 3: open(..., 'rb'
     print (np.median(n_im))
     print ("stddev: ")
     print (np.std(n_im))
-    
-
-
+    print ("\n")
+    print("My Init, No Noise")
+    print(zn_im)
+    print("mean: ")
+    print (np.mean(zn_im))
+    print("median: ")
+    print (np.median(zn_im))
+    print ("stddev: ")
+    print (np.std(zn_im))
 
