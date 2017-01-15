@@ -1,25 +1,18 @@
 import math
-from __future__ import print_function
-
-# Import MNIST data
 from tensorflow.examples.tutorials.mnist import input_data
 import tensorflow as tf
 from tensorflow.python.framework import ops
 from tensorflow.python.ops import random_ops
 
-
-def percept10(noise, lr, n_hidden, numEpochs):
-
-    mnist = input_data.read_data_sets("/tmp/data/", one_hot=True)
+def percept10(mnist, noise, lr, n_hidden, numEpochs, wdev, bdev):
 
     # Parameters
     learning_rate = lr
     training_epochs = numEpochs
     batch_size = 200
     display_step = 1
-
+    
     # Network Parameters
-    n_hidden = 50
     n_input = 784 # MNIST data input (img shape: 28*28)
     n_classes = 10 # MNIST total classes (0-9 digits)
 
@@ -69,30 +62,30 @@ def percept10(noise, lr, n_hidden, numEpochs):
 
     # Store layers weight & bias
     weights = {
-        'h1': tf.Variable(tf.random_normal([n_input, n_hidden], stddev = 1/math.sqrt(n_hidden))),
-        'h2': tf.Variable(tf.random_normal([n_hidden, n_hidden], stddev = 1/math.sqrt(n_hidden))),
-        'h3': tf.Variable(tf.random_normal([n_hidden, n_hidden], stddev = 1/math.sqrt(n_hidden))),
-        'h4': tf.Variable(tf.random_normal([n_hidden, n_hidden], stddev = 1/math.sqrt(n_hidden))),
-        'h5': tf.Variable(tf.random_normal([n_hidden, n_hidden], stddev = 1/math.sqrt(n_hidden))),
-        'h6': tf.Variable(tf.random_normal([n_hidden, n_hidden], stddev = 1/math.sqrt(n_hidden))),
-        'h7': tf.Variable(tf.random_normal([n_hidden, n_hidden], stddev = 1/math.sqrt(n_hidden))),
-        'h8': tf.Variable(tf.random_normal([n_hidden, n_hidden], stddev = 1/math.sqrt(n_hidden))),
-        'h9': tf.Variable(tf.random_normal([n_hidden, n_hidden], stddev = 1/math.sqrt(n_hidden))),
-        'h10': tf.Variable(tf.random_normal([n_hidden, n_hidden], stddev = 1/math.sqrt(n_hidden))),
-        'out': tf.Variable(tf.random_normal([n_hidden, n_classes], stddev = 1/math.sqrt(n_hidden))),
+        'h1': tf.Variable(tf.random_normal([n_input, n_hidden], stddev = wdev )),
+        'h2': tf.Variable(tf.random_normal([n_hidden, n_hidden], stddev = wdev )),
+        'h3': tf.Variable(tf.random_normal([n_hidden, n_hidden], stddev = wdev)),
+        'h4': tf.Variable(tf.random_normal([n_hidden, n_hidden], stddev = wdev)),
+        'h5': tf.Variable(tf.random_normal([n_hidden, n_hidden], stddev = wdev)),
+        'h6': tf.Variable(tf.random_normal([n_hidden, n_hidden], stddev = wdev)),
+        'h7': tf.Variable(tf.random_normal([n_hidden, n_hidden], stddev = wdev)),
+        'h8': tf.Variable(tf.random_normal([n_hidden, n_hidden], stddev = wdev)),
+        'h9': tf.Variable(tf.random_normal([n_hidden, n_hidden], stddev = wdev)),
+        'h10': tf.Variable(tf.random_normal([n_hidden, n_hidden], stddev = wdev)),
+        'out': tf.Variable(tf.random_normal([n_hidden, n_classes], stddev = wdev)),
     }
     biases = {
-        'b1': tf.Variable(tf.random_normal([n_hidden], stddev = 1/math.sqrt(n_hidden))),
-        'b2': tf.Variable(tf.random_normal([n_hidden], stddev = 1/math.sqrt(n_hidden))),
-        'b3': tf.Variable(tf.random_normal([n_hidden], stddev = 1/math.sqrt(n_hidden))),
-        'b4': tf.Variable(tf.random_normal([n_hidden], stddev = 1/math.sqrt(n_hidden))),
-        'b5': tf.Variable(tf.random_normal([n_hidden], stddev = 1/math.sqrt(n_hidden))),
-        'b6': tf.Variable(tf.random_normal([n_hidden], stddev = 1/math.sqrt(n_hidden))),
-        'b7': tf.Variable(tf.random_normal([n_hidden], stddev = 1/math.sqrt(n_hidden))),
-        'b8': tf.Variable(tf.random_normal([n_hidden], stddev = 1/math.sqrt(n_hidden))),
-        'b9': tf.Variable(tf.random_normal([n_hidden], stddev = 1/math.sqrt(n_hidden))),
-        'b10': tf.Variable(tf.random_normal([n_hidden], stddev = 1/math.sqrt(n_hidden))),
-        'out': tf.Variable(tf.random_normal([n_classes], stddev = 1/math.sqrt(n_hidden))),
+        'b1': tf.Variable(tf.random_normal([n_hidden], stddev = bdev)),
+        'b2': tf.Variable(tf.random_normal([n_hidden], stddev = bdev)),
+        'b3': tf.Variable(tf.random_normal([n_hidden], stddev = bdev)),
+        'b4': tf.Variable(tf.random_normal([n_hidden], stddev = bdev)),
+        'b5': tf.Variable(tf.random_normal([n_hidden], stddev = bdev)),
+        'b6': tf.Variable(tf.random_normal([n_hidden], stddev = bdev)),
+        'b7': tf.Variable(tf.random_normal([n_hidden], stddev = bdev)),
+        'b8': tf.Variable(tf.random_normal([n_hidden], stddev = bdev)),
+        'b9': tf.Variable(tf.random_normal([n_hidden], stddev = bdev)),
+        'b10': tf.Variable(tf.random_normal([n_hidden], stddev = bdev)),
+        'out': tf.Variable(tf.random_normal([n_classes], stddev = bdev)),
     }
 
     # Construct model
@@ -152,41 +145,59 @@ def percept10(noise, lr, n_hidden, numEpochs):
         print("Accuracy:", acc)
         return acc
 
-#experiment where we compare gradient noise vs no gradient noise for 15 epochs 
-#(return accuracy results of 10 trials)
-def test1():
-    noNoiseAcc = [0]*10
-    noiseAcc = [0]*10
-    
-    #With no noise
-    print("NO NOISE!!!")
-    for i in range(10):
-        noNoiseAcc[i] = percept10(noise=0, lr =.005, n_hidden = 50, )
-        
-    #With noise
-    print("NOISE!!!")
-    for i in range(10):
-        noiseAcc[i] = percept10(noise=1, lr =.005, n_hidden = 50)
-        
-    return noNoiseAcc, noiseAcc
+#An experiment looking at three initilizations with and without noise
+def testMain():
 
-#experiment where we compare gradient noise vs no gradient noise for 30 epochs 
-#(return accuracy results of 10 trials)
-def test2():
-    noNoiseAcc = [0]*10
-    noiseAcc = [0]*10
+    mnist = input_data.read_data_sets("/tmp/data/", one_hot=True)
+    n = 2     #how many trials per experiment?
+    eps = 2  #how many epochs per net?
     
-    #With no noise
-    print("NO NOISE!!!")
-    for i in range(10):
-        noNoiseAcc[i] = percept10(noise=0, lr =.005, n_hidden = 50, numEpochs = 30)
-        
-    #With noise
-    print("NOISE!!!")
-    for i in range(10):
-        noiseAcc[i] = percept10(noise=1, lr =.005, n_hidden = 50, numEpochs = 30)
-        
-    return noNoiseAcc, noiseAcc
+    #simple init
+    noise_init0 = [0]*n
+    znoise_init0 = [0]*n
+    
+    #good init
+    noise_init1 = [0]*n
+    znoise_init1 = [0]*n
+    
+    #my init
+    noise_initm = [0]*n
+    znoise_initm = [0]*n
+    #my init tests (re)
 
-noNoiseAcc, noiseAcc = test1()
+    print("my init tests")
+    for i in range(n):
+        znoise_initm[i] = percept10(mnist, noise=0, lr =.005, n_hidden = 50, numEpochs = eps, wdev = 1/math.sqrt(50), bdev = 1/math.sqrt(50))
+        noise_initm[i] = percept10(mnist, noise=1, lr =.005, n_hidden = 50, numEpochs = eps, wdev =  1/math.sqrt(50), bdev = 1/math.sqrt(50))
+    
+    
+    #simple init tests (.01 stdev for weights and biases)
+    print("simple init tests")
+    for i in range(n):
+        znoise_init0[i] = percept10(mnist, noise=0, lr =.005, n_hidden = 50, numEpochs = eps, wdev = .01, bdev = .01)
+        noise_init0[i] = percept10(mnist, noise=1, lr =.005, n_hidden = 50, numEpochs = eps, wdev = .01, bdev = .01)
+        
+    #good init (derived in He et. al) tests
+    print("good init tests")
+    for i in range(n):
+        znoise_init1[i] = percept10(mnist, noise=0, lr =.005, n_hidden = 50, numEpochs = eps, wdev = math.sqrt(2/50), bdev = 0)
+        noise_init1[i] = percept10(mnist, noise=1, lr =.005, n_hidden = 50, numEpochs = eps, wdev =  math.sqrt(2/50), bdev = 0)
+        
+    return noise_init0, znoise_init0, noise_init1, znoise_init1, noise_initm, znoise_initm
+
+
+n_i0, zn_i0, n_i1, zn_i1, n_im, zn_im = testMain()
+
+import pickle
+
+# obj0, obj1, obj2 are created here...
+
+# Saving the objects:
+with open('mnist_results.pickle', 'wb') as f:  # Python 3: open(..., 'wb')
+    pickle.dump([n_i0, zn_i0, n_i1, zn_i1, n_im, zn_im], f)
+
+# Getting back the objects:
+with open('mnist_results.pickle', 'rb') as f:  # Python 3: open(..., 'rb')
+    n_i0, zn_i0, n_i1, zn_i1, n_im, zn_im = pickle.load(f)
+
 
