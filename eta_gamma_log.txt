@@ -1,0 +1,2976 @@
+Extracting /tmp/data/train-images-idx3-ubyte.gz
+Extracting /tmp/data/train-labels-idx1-ubyte.gz
+Extracting /tmp/data/t10k-images-idx3-ubyte.gz
+Extracting /tmp/data/t10k-labels-idx1-ubyte.gz
+NEW STRATEGY
+Epoch: 0001 cost= 1.357367571
+Epoch: 0002 cost= 0.447478214
+Epoch: 0003 cost= 0.267429834
+Epoch: 0004 cost= 0.211423950
+Epoch: 0005 cost= 0.176139099
+Epoch: 0006 cost= 0.151186705
+Epoch: 0007 cost= 0.132104890
+Epoch: 0008 cost= 0.118695473
+Epoch: 0009 cost= 0.106523290
+Epoch: 0010 cost= 0.096796476
+Optimization Finished!
+Accuracy: 0.9576
+NEW STRATEGY
+Epoch: 0001 cost= 1.108814158
+Epoch: 0002 cost= 0.362339396
+Epoch: 0003 cost= 0.251546406
+Epoch: 0004 cost= 0.206179238
+Epoch: 0005 cost= 0.177438091
+Epoch: 0006 cost= 0.158190494
+Epoch: 0007 cost= 0.141290277
+Epoch: 0008 cost= 0.130336641
+Epoch: 0009 cost= 0.117645797
+Epoch: 0010 cost= 0.109530201
+Optimization Finished!
+Accuracy: 0.9575
+NEW STRATEGY
+Epoch: 0001 cost= 1.453895162
+Epoch: 0002 cost= 0.502616954
+Epoch: 0003 cost= 0.297655818
+Epoch: 0004 cost= 0.223281075
+Epoch: 0005 cost= 0.183494650
+Epoch: 0006 cost= 0.159533471
+Epoch: 0007 cost= 0.142275767
+Epoch: 0008 cost= 0.124513357
+Epoch: 0009 cost= 0.112793287
+Epoch: 0010 cost= 0.101756827
+Optimization Finished!
+Accuracy: 0.9622
+NEW STRATEGY
+Epoch: 0001 cost= 170096463547065.656250000
+Epoch: 0002 cost= 2.302108391
+Epoch: 0003 cost= 2.301776292
+Epoch: 0004 cost= 2.301632602
+Epoch: 0005 cost= 2.301600413
+Epoch: 0006 cost= 2.301565417
+Epoch: 0007 cost= 2.301657240
+Epoch: 0008 cost= 2.301603107
+Epoch: 0009 cost= 2.301543405
+Epoch: 0010 cost= 2.301602253
+Optimization Finished!
+Accuracy: 0.1135
+NEW STRATEGY
+Epoch: 0001 cost= 21551870517949.011718750
+Epoch: 0002 cost= 2.318474360
+Epoch: 0003 cost= 2.322048958
+Epoch: 0004 cost= 2.318220489
+Epoch: 0005 cost= 2.311821276
+Epoch: 0006 cost= 2.314431811
+Epoch: 0007 cost= 2.312960362
+Epoch: 0008 cost= 2.309970023
+Epoch: 0009 cost= 2.310155216
+Epoch: 0010 cost= 2.308819914
+Optimization Finished!
+Accuracy: 0.1032
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= 1.208492641
+Epoch: 0002 cost= 0.410165592
+Epoch: 0003 cost= 0.295249739
+Epoch: 0004 cost= 0.242016182
+Epoch: 0005 cost= 0.210752992
+Epoch: 0006 cost= 0.183594409
+Epoch: 0007 cost= 0.165156254
+Epoch: 0008 cost= 0.153975577
+Epoch: 0009 cost= 0.144742197
+Epoch: 0010 cost= 0.130283961
+Optimization Finished!
+Accuracy: 0.9537
+NEW STRATEGY
+Epoch: 0001 cost= 1.260624994
+Epoch: 0002 cost= 0.381770811
+Epoch: 0003 cost= 0.247825718
+Epoch: 0004 cost= 0.193445572
+Epoch: 0005 cost= 0.163726941
+Epoch: 0006 cost= 0.145939663
+Epoch: 0007 cost= 0.129662259
+Epoch: 0008 cost= 0.115223839
+Epoch: 0009 cost= 0.103815689
+Epoch: 0010 cost= 0.091135626
+Optimization Finished!
+Accuracy: 0.9605
+NEW STRATEGY
+Epoch: 0001 cost= 1.166043762
+Epoch: 0002 cost= 0.375039804
+Epoch: 0003 cost= 0.264729167
+Epoch: 0004 cost= 0.218308214
+Epoch: 0005 cost= 0.190469903
+Epoch: 0006 cost= 0.165703864
+Epoch: 0007 cost= 0.151383023
+Epoch: 0008 cost= 0.136269444
+Epoch: 0009 cost= 0.125236620
+Epoch: 0010 cost= 0.116603658
+Optimization Finished!
+Accuracy: 0.9576
+NEW STRATEGY
+Epoch: 0001 cost= 1.387816324
+Epoch: 0002 cost= 0.407275863
+Epoch: 0003 cost= 0.246077052
+Epoch: 0004 cost= 0.194528106
+Epoch: 0005 cost= 0.166777636
+Epoch: 0006 cost= 0.147055588
+Epoch: 0007 cost= 0.127112336
+Epoch: 0008 cost= 0.114435881
+Epoch: 0009 cost= 0.105923552
+Epoch: 0010 cost= 0.096991313
+Optimization Finished!
+Accuracy: 0.9613
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= 270965313733596698116096.000000000
+Epoch: 0002 cost= 2.301427347
+Epoch: 0003 cost= 2.301539770
+Epoch: 0004 cost= 2.301377372
+Epoch: 0005 cost= 2.301449209
+Epoch: 0006 cost= 2.301510623
+Epoch: 0007 cost= 2.301468439
+Epoch: 0008 cost= 2.301484185
+Epoch: 0009 cost= 2.301480868
+Epoch: 0010 cost= 2.301449210
+Optimization Finished!
+Accuracy: 0.1135
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= 1.210896859
+Epoch: 0002 cost= 0.381915416
+Epoch: 0003 cost= 0.257783153
+Epoch: 0004 cost= 0.206104272
+Epoch: 0005 cost= 0.174654881
+Epoch: 0006 cost= 0.152086086
+Epoch: 0007 cost= 0.134198638
+Epoch: 0008 cost= 0.123101840
+Epoch: 0009 cost= 0.111173479
+Epoch: 0010 cost= 0.101900796
+Optimization Finished!
+Accuracy: 0.9583
+NEW STRATEGY
+Epoch: 0001 cost= 1.234515999
+Epoch: 0002 cost= 0.383558955
+Epoch: 0003 cost= 0.265786093
+Epoch: 0004 cost= 0.216300265
+Epoch: 0005 cost= 0.178922881
+Epoch: 0006 cost= 0.161334279
+Epoch: 0007 cost= 0.140392963
+Epoch: 0008 cost= 0.129901434
+Epoch: 0009 cost= 0.119623639
+Epoch: 0010 cost= 0.107887009
+Optimization Finished!
+Accuracy: 0.9586
+NEW STRATEGY
+Epoch: 0001 cost= 1.354434784
+Epoch: 0002 cost= 0.411141401
+Epoch: 0003 cost= 0.286128871
+Epoch: 0004 cost= 0.199075615
+Epoch: 0005 cost= 0.164735514
+Epoch: 0006 cost= 0.140647321
+Epoch: 0007 cost= 0.124220560
+Epoch: 0008 cost= 0.110132820
+Epoch: 0009 cost= 0.356081680
+Epoch: 0010 cost= 0.156971195
+Optimization Finished!
+Accuracy: 0.9586
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= 158042991.822279990
+Epoch: 0002 cost= 2.329906167
+Epoch: 0003 cost= 2.323368262
+Epoch: 0004 cost= 2.323961541
+Epoch: 0005 cost= 2.320573637
+Epoch: 0006 cost= 2.318408089
+Epoch: 0007 cost= 2.317516676
+Epoch: 0008 cost= 2.316077120
+Epoch: 0009 cost= 2.318989696
+Epoch: 0010 cost= 2.318498996
+Optimization Finished!
+Accuracy: 0.1028
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= 84001447913059312.000000000
+Epoch: 0002 cost= 2.301467170
+Epoch: 0003 cost= 2.301482931
+Epoch: 0004 cost= 2.301490806
+Epoch: 0005 cost= 2.301435230
+Epoch: 0006 cost= 2.301556188
+Epoch: 0007 cost= 2.301537266
+Epoch: 0008 cost= 2.301454198
+Epoch: 0009 cost= 2.301562084
+Epoch: 0010 cost= 2.301498537
+Optimization Finished!
+Accuracy: 0.1135
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= 1.250773467
+Epoch: 0002 cost= 0.359785109
+Epoch: 0003 cost= 0.247048279
+Epoch: 0004 cost= 0.198580450
+Epoch: 0005 cost= 0.165725491
+Epoch: 0006 cost= 0.145979174
+Epoch: 0007 cost= 0.129596870
+Epoch: 0008 cost= 0.114520914
+Epoch: 0009 cost= 0.105673867
+Epoch: 0010 cost= 0.095255337
+Optimization Finished!
+Accuracy: 0.9614
+NEW STRATEGY
+Epoch: 0001 cost= 1.116287654
+Epoch: 0002 cost= 0.340148174
+Epoch: 0003 cost= 0.250881625
+Epoch: 0004 cost= 0.210582177
+Epoch: 0005 cost= 0.180134889
+Epoch: 0006 cost= 0.155751154
+Epoch: 0007 cost= 0.142537865
+Epoch: 0008 cost= 0.130755350
+Epoch: 0009 cost= 0.119894323
+Epoch: 0010 cost= 0.111233262
+Optimization Finished!
+Accuracy: 0.9612
+NEW STRATEGY
+Epoch: 0001 cost= 1.314072059
+Epoch: 0002 cost= 0.445266690
+Epoch: 0003 cost= 0.261883188
+Epoch: 0004 cost= 0.206966195
+Epoch: 0005 cost= 0.174719374
+Epoch: 0006 cost= 0.157524154
+Epoch: 0007 cost= 0.138650924
+Epoch: 0008 cost= 0.121384655
+Epoch: 0009 cost= 0.111984574
+Epoch: 0010 cost= 0.099197104
+Optimization Finished!
+Accuracy: 0.9592
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= 1483741821736009116346392510464.000000000
+Epoch: 0002 cost= 2.317842575
+Epoch: 0003 cost= 2.316953407
+Epoch: 0004 cost= 2.318458625
+Epoch: 0005 cost= 2.313337323
+Epoch: 0006 cost= 2.312449582
+Epoch: 0007 cost= 2.314131162
+Epoch: 0008 cost= 2.313020257
+Epoch: 0009 cost= 2.311317007
+Epoch: 0010 cost= 2.310558739
+Optimization Finished!
+Accuracy: 0.1009
+NEW STRATEGY
+Epoch: 0001 cost= 118341.782217349
+Epoch: 0002 cost= 2.310559390
+Epoch: 0003 cost= 2.309922843
+Epoch: 0004 cost= 2.307564877
+Epoch: 0005 cost= 2.304086096
+Epoch: 0006 cost= 2.303962802
+Epoch: 0007 cost= 2.304634423
+Epoch: 0008 cost= 2.304045689
+Epoch: 0009 cost= 2.304470240
+Epoch: 0010 cost= 2.303609389
+Optimization Finished!
+Accuracy: 0.1135
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= 1.342139992
+Epoch: 0002 cost= 0.386798494
+Epoch: 0003 cost= 0.247164038
+Epoch: 0004 cost= 0.199200031
+Epoch: 0005 cost= 0.167436072
+Epoch: 0006 cost= 0.147513755
+Epoch: 0007 cost= 0.130383561
+Epoch: 0008 cost= 0.118931247
+Epoch: 0009 cost= 0.105427916
+Epoch: 0010 cost= 0.096924233
+Optimization Finished!
+Accuracy: 0.9637
+NEW STRATEGY
+Epoch: 0001 cost= 1.274500138
+Epoch: 0002 cost= 0.380909041
+Epoch: 0003 cost= 0.257255984
+Epoch: 0004 cost= 0.205917190
+Epoch: 0005 cost= 0.177411272
+Epoch: 0006 cost= 0.156613549
+Epoch: 0007 cost= 0.141935526
+Epoch: 0008 cost= 0.128128701
+Epoch: 0009 cost= 0.118422157
+Epoch: 0010 cost= 0.107576096
+Optimization Finished!
+Accuracy: 0.953
+NEW STRATEGY
+Epoch: 0001 cost= 1.381763469
+Epoch: 0002 cost= 0.432571077
+Epoch: 0003 cost= 0.257087307
+Epoch: 0004 cost= 0.203209870
+Epoch: 0005 cost= 0.171097602
+Epoch: 0006 cost= 0.150532879
+Epoch: 0007 cost= 0.136478816
+Epoch: 0008 cost= 0.118524896
+Epoch: 0009 cost= 0.105425951
+Epoch: 0010 cost= 0.099313414
+Optimization Finished!
+Accuracy: 0.965
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= 1.541317273
+Epoch: 0002 cost= 0.524216950
+Epoch: 0003 cost= 0.284647843
+Epoch: 0004 cost= 0.219210642
+Epoch: 0005 cost= 0.179258661
+Epoch: 0006 cost= 0.159573867
+Epoch: 0007 cost= 0.138164200
+Epoch: 0008 cost= 0.124997292
+Epoch: 0009 cost= 0.112287362
+Epoch: 0010 cost= 0.103561174
+Optimization Finished!
+Accuracy: 0.9586
+NEW STRATEGY
+Epoch: 0001 cost= 1.148968877
+Epoch: 0002 cost= 0.372426053
+Epoch: 0003 cost= 0.258424189
+Epoch: 0004 cost= 0.210107671
+Epoch: 0005 cost= 0.176828918
+Epoch: 0006 cost= 0.154682597
+Epoch: 0007 cost= 0.136658871
+Epoch: 0008 cost= 0.124022684
+Epoch: 0009 cost= 0.111180054
+Epoch: 0010 cost= 0.102410272
+Optimization Finished!
+Accuracy: 0.9621
+NEW STRATEGY
+Epoch: 0001 cost= 1.451046452
+Epoch: 0002 cost= 0.475261994
+Epoch: 0003 cost= 0.288088236
+Epoch: 0004 cost= 0.231753026
+Epoch: 0005 cost= 0.193629040
+Epoch: 0006 cost= 0.165559055
+Epoch: 0007 cost= 0.149294384
+Epoch: 0008 cost= 0.135252318
+Epoch: 0009 cost= 0.119860733
+Epoch: 0010 cost= 0.112920829
+Optimization Finished!
+Accuracy: 0.9584
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= 1.240920188
+Epoch: 0002 cost= 0.352495384
+Epoch: 0003 cost= 0.243862463
+Epoch: 0004 cost= 0.194039074
+Epoch: 0005 cost= 0.163323204
+Epoch: 0006 cost= 0.142359559
+Epoch: 0007 cost= 0.130484598
+Epoch: 0008 cost= 0.113669054
+Epoch: 0009 cost= 0.105048283
+Epoch: 0010 cost= 0.097020732
+Optimization Finished!
+Accuracy: 0.9601
+NEW STRATEGY
+Epoch: 0001 cost= 1.237904677
+Epoch: 0002 cost= 0.388675949
+Epoch: 0003 cost= 0.273420535
+Epoch: 0004 cost= 0.221749701
+Epoch: 0005 cost= 0.190202045
+Epoch: 0006 cost= 0.166892652
+Epoch: 0007 cost= 0.146210835
+Epoch: 0008 cost= 0.135051556
+Epoch: 0009 cost= 0.121241840
+Epoch: 0010 cost= 0.114122448
+Optimization Finished!
+Accuracy: 0.9586
+NEW STRATEGY
+Epoch: 0001 cost= 1.561732523
+Epoch: 0002 cost= 0.579770649
+Epoch: 0003 cost= 0.295784921
+Epoch: 0004 cost= 0.222802901
+Epoch: 0005 cost= 0.188100524
+Epoch: 0006 cost= 0.157549547
+Epoch: 0007 cost= 0.138178131
+Epoch: 0008 cost= 0.127230543
+Epoch: 0009 cost= 0.111308491
+Epoch: 0010 cost= 0.101806366
+Optimization Finished!
+Accuracy: 0.9587
+NEW STRATEGY
+Epoch: 0001 cost= 14414526843.760179520
+Epoch: 0002 cost= 104459.865658376
+Epoch: 0003 cost= 2.302656884
+Epoch: 0004 cost= 2.302574245
+Epoch: 0005 cost= 2.302226872
+Epoch: 0006 cost= 2.302309553
+Epoch: 0007 cost= 2.302054762
+Epoch: 0008 cost= 2.302291308
+Epoch: 0009 cost= 2.302310981
+Epoch: 0010 cost= 2.302210202
+Optimization Finished!
+Accuracy: 0.1135
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= 1.154285802
+Epoch: 0002 cost= 0.345780447
+Epoch: 0003 cost= 0.235522128
+Epoch: 0004 cost= 0.187742842
+Epoch: 0005 cost= 0.158803143
+Epoch: 0006 cost= 0.142283752
+Epoch: 0007 cost= 0.123720762
+Epoch: 0008 cost= 0.112632417
+Epoch: 0009 cost= 0.102768375
+Epoch: 0010 cost= 0.095676442
+Optimization Finished!
+Accuracy: 0.9624
+NEW STRATEGY
+Epoch: 0001 cost= 1.286892244
+Epoch: 0002 cost= 0.391195107
+Epoch: 0003 cost= 0.267977543
+Epoch: 0004 cost= 0.214868668
+Epoch: 0005 cost= 0.187369619
+Epoch: 0006 cost= 0.165266276
+Epoch: 0007 cost= 0.147767718
+Epoch: 0008 cost= 0.136163471
+Epoch: 0009 cost= 0.123550498
+Epoch: 0010 cost= 0.112437279
+Optimization Finished!
+Accuracy: 0.9505
+NEW STRATEGY
+Epoch: 0001 cost= 1.860366314
+Epoch: 0002 cost= 0.805830933
+Epoch: 0003 cost= 0.389050824
+Epoch: 0004 cost= 0.240790347
+Epoch: 0005 cost= 0.197979627
+Epoch: 0006 cost= 0.163190419
+Epoch: 0007 cost= 0.145918625
+Epoch: 0008 cost= 0.128225744
+Epoch: 0009 cost= 0.116559373
+Epoch: 0010 cost= 0.105638019
+Optimization Finished!
+Accuracy: 0.9534
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= 1.014704938
+Epoch: 0002 cost= 0.352768448
+Epoch: 0003 cost= 0.256827258
+Epoch: 0004 cost= 0.216279038
+Epoch: 0005 cost= 0.190374064
+Epoch: 0006 cost= 0.166270502
+Epoch: 0007 cost= 0.150355682
+Epoch: 0008 cost= 0.136922301
+Epoch: 0009 cost= 0.125703051
+Epoch: 0010 cost= 0.114367292
+Optimization Finished!
+Accuracy: 0.9566
+NEW STRATEGY
+Epoch: 0001 cost= 1.305213911
+Epoch: 0002 cost= 0.379277885
+Epoch: 0003 cost= 0.254836060
+Epoch: 0004 cost= 0.203506404
+Epoch: 0005 cost= 0.172737219
+Epoch: 0006 cost= 0.151335465
+Epoch: 0007 cost= 0.136412667
+Epoch: 0008 cost= 0.121419372
+Epoch: 0009 cost= 0.109108839
+Epoch: 0010 cost= 0.101489533
+Optimization Finished!
+Accuracy: 0.9602
+NEW STRATEGY
+Epoch: 0001 cost= 1.201573047
+Epoch: 0002 cost= 0.365124358
+Epoch: 0003 cost= 0.248628256
+Epoch: 0004 cost= 0.205262688
+Epoch: 0005 cost= 0.174547602
+Epoch: 0006 cost= 0.154568959
+Epoch: 0007 cost= 0.138682497
+Epoch: 0008 cost= 0.129698648
+Epoch: 0009 cost= 0.118112009
+Epoch: 0010 cost= 0.109650876
+Optimization Finished!
+Accuracy: 0.9547
+NEW STRATEGY
+Epoch: 0001 cost= 1.358834106
+Epoch: 0002 cost= 0.379870231
+Epoch: 0003 cost= 0.243541961
+Epoch: 0004 cost= 0.197835870
+Epoch: 0005 cost= 0.168767185
+Epoch: 0006 cost= 0.147378995
+Epoch: 0007 cost= 0.131205492
+Epoch: 0008 cost= 0.115045884
+Epoch: 0009 cost= 0.103495639
+Epoch: 0010 cost= 0.096194617
+Optimization Finished!
+Accuracy: 0.9517
+NEW STRATEGY
+Epoch: 0001 cost= inf
+Epoch: 0002 cost= 2.302018770
+Epoch: 0003 cost= 2.301842856
+Epoch: 0004 cost= 2.301606763
+Epoch: 0005 cost= 2.301541112
+Epoch: 0006 cost= 2.301506754
+Epoch: 0007 cost= 2.301676211
+Epoch: 0008 cost= 2.301438643
+Epoch: 0009 cost= 2.301599615
+Epoch: 0010 cost= 2.301498513
+Optimization Finished!
+Accuracy: 0.1135
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= 1.219528946
+Epoch: 0002 cost= 0.440514861
+Epoch: 0003 cost= 0.309561332
+Epoch: 0004 cost= 0.252199900
+Epoch: 0005 cost= 0.218923842
+Epoch: 0006 cost= 0.191646583
+Epoch: 0007 cost= 0.174666352
+Epoch: 0008 cost= 0.159134975
+Epoch: 0009 cost= 0.146461215
+Epoch: 0010 cost= 0.137306811
+Optimization Finished!
+Accuracy: 0.9498
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= 1.295504029
+Epoch: 0002 cost= 0.373943954
+Epoch: 0003 cost= 0.750243167
+Epoch: 0004 cost= 0.341489202
+Epoch: 0005 cost= 0.210843232
+Epoch: 0006 cost= 0.173654589
+Epoch: 0007 cost= 0.147505808
+Epoch: 0008 cost= 0.132927690
+Epoch: 0009 cost= 0.121421099
+Epoch: 0010 cost= 0.109719372
+Optimization Finished!
+Accuracy: 0.9604
+NEW STRATEGY
+Epoch: 0001 cost= 1.144887591
+Epoch: 0002 cost= 0.363073753
+Epoch: 0003 cost= 0.255211770
+Epoch: 0004 cost= 0.209177808
+Epoch: 0005 cost= 0.179892096
+Epoch: 0006 cost= 0.160168234
+Epoch: 0007 cost= 0.144568072
+Epoch: 0008 cost= 0.130948037
+Epoch: 0009 cost= 0.121508188
+Epoch: 0010 cost= 0.110572914
+Optimization Finished!
+Accuracy: 0.9577
+NEW STRATEGY
+Epoch: 0001 cost= 1.559280530
+Epoch: 0002 cost= 0.518159939
+Epoch: 0003 cost= 0.283256730
+Epoch: 0004 cost= 0.211068547
+Epoch: 0005 cost= 0.177597150
+Epoch: 0006 cost= 0.154181682
+Epoch: 0007 cost= 0.134273596
+Epoch: 0008 cost= 0.121542920
+Epoch: 0009 cost= 0.110437768
+Epoch: 0010 cost= 0.101508141
+Optimization Finished!
+Accuracy: 0.9524
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+MY INIT~~~~~~~~
+--------------------------
+original eta/gamma: 
+[0.1135, 0.097999997, 0.097999997, 0.097999997, 0.097999997, 0.097999997, 0.1135, 0.097999997, 0.1135, 0.097999997]
+Avg: 0.10265
+--------------------------
+eta=1.0, gamma=0.25: 
+[0.1032, 0.097999997, 0.1028, 0.1009, 0.097999997, 0.097999997, 0.097999997, 0.097999997, 0.097999997, 0.097999997]
+Avg: 0.09929
+--------------------------
+eta=5.0, gamma=:0.55
+[0.097999997, 0.097999997, 0.097999997, 0.1135, 0.097999997, 0.097999997, 0.097999997, 0.097999997, 0.097999997, 0.097999997]
+Avg: 0.09955
+--------------------------
+eta=.3, gamma=:0.55
+[0.95749998, 0.9576, 0.95859998, 0.9612, 0.95300001, 0.96210003, 0.95859998, 0.95050001, 0.95469999, 0.95770001]
+Avg: 0.95715
+--------------------------
+eta=0.1, gamma=:0.55
+[0.96219999, 0.96130002, 0.95859998, 0.95920002, 0.96499997, 0.95840001, 0.9587, 0.95340002, 0.95169997, 0.95240003]
+Avg: 0.95809
+--------------------------
+eta=0.3, gamma=:1.0
+[0.96219999, 0.96130002, 0.95859998, 0.95920002, 0.96499997, 0.95840001, 0.9587, 0.95340002, 0.95169997, 0.95240003]
+Avg: 0.95809
+--------------------------
+eta=1.0, gamma=:2.0
+[0.097999997, 0.1135, 0.1135, 0.097999997, 0.097999997, 0.097999997, 0.097999997, 0.097999997, 0.94980001, 0.097999997]
+Avg: 0.18628
+--------------------------
+eta=1.0, gamma=:5.0
+[0.95370001, 0.097999997, 0.097999997, 0.097999997, 0.097999997, 0.097999997, 0.097999997, 0.95660001, 0.097999997, 0.097999997]
+Avg: 0.26943
+Extracting /tmp/data/train-images-idx3-ubyte.gz
+Extracting /tmp/data/train-labels-idx1-ubyte.gz
+Extracting /tmp/data/t10k-images-idx3-ubyte.gz
+Extracting /tmp/data/t10k-labels-idx1-ubyte.gz
+NEW STRATEGY
+Epoch: 0001 cost= 2.301608104
+Epoch: 0002 cost= 2.301530021
+Epoch: 0003 cost= 2.301544732
+Epoch: 0004 cost= 2.301583431
+Epoch: 0005 cost= 2.301560385
+Epoch: 0006 cost= 2.301582487
+Epoch: 0007 cost= 2.301541974
+Epoch: 0008 cost= 2.301482829
+Epoch: 0009 cost= 2.301460491
+Epoch: 0010 cost= 2.301471115
+Optimization Finished!
+Accuracy: 0.1135
+NEW STRATEGY
+Epoch: 0001 cost= 2.301700775
+Epoch: 0002 cost= 1.843812919
+Epoch: 0003 cost= 1.101832406
+Epoch: 0004 cost= 0.591391579
+Epoch: 0005 cost= 0.316613985
+Epoch: 0006 cost= 0.253900172
+Epoch: 0007 cost= 0.192334440
+Epoch: 0008 cost= 0.166425224
+Epoch: 0009 cost= 0.146157653
+Epoch: 0010 cost= 0.132537642
+Optimization Finished!
+Accuracy: 0.9519
+NEW STRATEGY
+Epoch: 0001 cost= 2.301680657
+Epoch: 0002 cost= 2.301473105
+Epoch: 0003 cost= 2.301549101
+Epoch: 0004 cost= 2.301502326
+Epoch: 0005 cost= 2.301510143
+Epoch: 0006 cost= 2.301472156
+Epoch: 0007 cost= 2.301479258
+Epoch: 0008 cost= 2.301524099
+Epoch: 0009 cost= 2.301522663
+Epoch: 0010 cost= 2.301445210
+Optimization Finished!
+Accuracy: 0.1135
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= 3515542682781.649902344
+Epoch: 0002 cost= 66692.199870485
+Epoch: 0003 cost= 2.336674518
+Epoch: 0004 cost= 2.317625529
+Epoch: 0005 cost= 3082306.307245125
+Epoch: 0006 cost= 2.313972987
+Epoch: 0007 cost= 2.315558310
+Epoch: 0008 cost= 2.314255108
+Epoch: 0009 cost= 2.310985444
+Epoch: 0010 cost= 2.311012484
+Optimization Finished!
+Accuracy: 0.1135
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= 1.011375073
+Epoch: 0002 cost= 0.340014740
+Epoch: 0003 cost= 0.239670278
+Epoch: 0004 cost= 0.199409965
+Epoch: 0005 cost= 0.172894432
+Epoch: 0006 cost= 0.153698956
+Epoch: 0007 cost= 0.137881660
+Epoch: 0008 cost= 0.125662892
+Epoch: 0009 cost= 0.112050047
+Epoch: 0010 cost= 0.104634675
+Optimization Finished!
+Accuracy: 0.959
+NEW STRATEGY
+Epoch: 0001 cost= 1.285581756
+Epoch: 0002 cost= 0.376628321
+Epoch: 0003 cost= 0.239816716
+Epoch: 0004 cost= 0.200615040
+Epoch: 0005 cost= 0.164107798
+Epoch: 0006 cost= 0.143243089
+Epoch: 0007 cost= 0.128226183
+Epoch: 0008 cost= 0.113236886
+Epoch: 0009 cost= 0.104954969
+Epoch: 0010 cost= 0.095809654
+Optimization Finished!
+Accuracy: 0.9596
+NEW STRATEGY
+Epoch: 0001 cost= 2.301948695
+Epoch: 0002 cost= 2.301568535
+Epoch: 0003 cost= 2.301467044
+Epoch: 0004 cost= 2.301649718
+Epoch: 0005 cost= 2.301508051
+Epoch: 0006 cost= 2.301547070
+Epoch: 0007 cost= 2.301559681
+Epoch: 0008 cost= 2.301504752
+Epoch: 0009 cost= 2.301515551
+Epoch: 0010 cost= 2.301472469
+Optimization Finished!
+Accuracy: 0.1135
+NEW STRATEGY
+Epoch: 0001 cost= 2.259105919
+Epoch: 0002 cost= 1.518585936
+Epoch: 0003 cost= 0.837655450
+Epoch: 0004 cost= 0.420923132
+Epoch: 0005 cost= 0.277660740
+Epoch: 0006 cost= 0.210229751
+Epoch: 0007 cost= 0.176316059
+Epoch: 0008 cost= 0.154430317
+Epoch: 0009 cost= 0.136097647
+Epoch: 0010 cost= 0.123577215
+Optimization Finished!
+Accuracy: 0.958
+NEW STRATEGY
+Epoch: 0001 cost= 2.301744954
+Epoch: 0002 cost= 2.301539047
+Epoch: 0003 cost= 2.301423327
+Epoch: 0004 cost= 2.301518176
+Epoch: 0005 cost= 2.301550193
+Epoch: 0006 cost= 2.301524884
+Epoch: 0007 cost= 2.301502846
+Epoch: 0008 cost= 2.301524836
+Epoch: 0009 cost= 2.301483726
+Epoch: 0010 cost= 2.301529106
+Optimization Finished!
+Accuracy: 0.1135
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= 1.153935210
+Epoch: 0002 cost= 0.370381019
+Epoch: 0003 cost= 0.254065784
+Epoch: 0004 cost= 0.205656306
+Epoch: 0005 cost= 0.174258946
+Epoch: 0006 cost= 0.153401308
+Epoch: 0007 cost= 0.138883375
+Epoch: 0008 cost= 0.126216748
+Epoch: 0009 cost= 0.113714970
+Epoch: 0010 cost= 0.103930579
+Optimization Finished!
+Accuracy: 0.9608
+NEW STRATEGY
+Epoch: 0001 cost= 1.020927885
+Epoch: 0002 cost= 0.321217375
+Epoch: 0003 cost= 0.231779346
+Epoch: 0004 cost= 0.192785441
+Epoch: 0005 cost= 0.163909738
+Epoch: 0006 cost= 0.140952361
+Epoch: 0007 cost= 0.128256836
+Epoch: 0008 cost= 0.117354418
+Epoch: 0009 cost= 0.106621255
+Epoch: 0010 cost= 0.098975444
+Optimization Finished!
+Accuracy: 0.9625
+NEW STRATEGY
+Epoch: 0001 cost= 2.301712568
+Epoch: 0002 cost= 2.301518068
+Epoch: 0003 cost= 2.301447769
+Epoch: 0004 cost= 2.301567801
+Epoch: 0005 cost= 2.301421918
+Epoch: 0006 cost= 2.301545229
+Epoch: 0007 cost= 2.301483619
+Epoch: 0008 cost= 2.301448790
+Epoch: 0009 cost= 2.301589419
+Epoch: 0010 cost= 2.301549966
+Optimization Finished!
+Accuracy: 0.1135
+NEW STRATEGY
+Epoch: 0001 cost= 2.248039738
+Epoch: 0002 cost= 1.593383972
+Epoch: 0003 cost= 0.813652495
+Epoch: 0004 cost= 0.389742656
+Epoch: 0005 cost= 0.256046586
+Epoch: 0006 cost= 0.207317647
+Epoch: 0007 cost= 0.176548123
+Epoch: 0008 cost= 0.152242750
+Epoch: 0009 cost= 0.133919577
+Epoch: 0010 cost= 0.122055402
+Optimization Finished!
+Accuracy: 0.9568
+NEW STRATEGY
+Epoch: 0001 cost= 2.301598979
+Epoch: 0002 cost= 2.301432284
+Epoch: 0003 cost= 2.301469873
+Epoch: 0004 cost= 2.301557125
+Epoch: 0005 cost= 2.301495351
+Epoch: 0006 cost= 2.301560222
+Epoch: 0007 cost= 2.301476289
+Epoch: 0008 cost= 2.301572751
+Epoch: 0009 cost= 2.301495669
+Epoch: 0010 cost= 2.301526162
+Optimization Finished!
+Accuracy: 0.1135
+NEW STRATEGY
+Epoch: 0001 cost= 11247434654425924.000000000
+Epoch: 0002 cost= 2.302327760
+Epoch: 0003 cost= 2.302452426
+Epoch: 0004 cost= 2.301882649
+Epoch: 0005 cost= 2.301971055
+Epoch: 0006 cost= 2.301880537
+Epoch: 0007 cost= 2.302083719
+Epoch: 0008 cost= 2.301921506
+Epoch: 0009 cost= 2.301979398
+Epoch: 0010 cost= 2.301952280
+Optimization Finished!
+Accuracy: 0.1135
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= 1.178465125
+Epoch: 0002 cost= 0.366718449
+Epoch: 0003 cost= 0.262205140
+Epoch: 0004 cost= 0.233849923
+Epoch: 0005 cost= 0.180672684
+Epoch: 0006 cost= 0.158997604
+Epoch: 0007 cost= 0.143332809
+Epoch: 0008 cost= 0.132717631
+Epoch: 0009 cost= 0.122974470
+Epoch: 0010 cost= 0.106392135
+Optimization Finished!
+Accuracy: 0.9566
+NEW STRATEGY
+Epoch: 0001 cost= 1.178081459
+Epoch: 0002 cost= 0.342708259
+Epoch: 0003 cost= 0.243607566
+Epoch: 0004 cost= 0.192584008
+Epoch: 0005 cost= 0.168407452
+Epoch: 0006 cost= 0.143341492
+Epoch: 0007 cost= 0.126031022
+Epoch: 0008 cost= 0.114332560
+Epoch: 0009 cost= 0.102702431
+Epoch: 0010 cost= 0.096581247
+Optimization Finished!
+Accuracy: 0.9588
+NEW STRATEGY
+Epoch: 0001 cost= 2.302108122
+Epoch: 0002 cost= 2.301480631
+Epoch: 0003 cost= 2.301597936
+Epoch: 0004 cost= 2.301543846
+Epoch: 0005 cost= 2.301570296
+Epoch: 0006 cost= 2.301539327
+Epoch: 0007 cost= 2.301506399
+Epoch: 0008 cost= 2.301564580
+Epoch: 0009 cost= 2.301547726
+Epoch: 0010 cost= 2.301534843
+Optimization Finished!
+Accuracy: 0.1135
+NEW STRATEGY
+Epoch: 0001 cost= 2.301399047
+Epoch: 0002 cost= 1.672851015
+Epoch: 0003 cost= 0.695175195
+Epoch: 0004 cost= 0.322457090
+Epoch: 0005 cost= 0.227895241
+Epoch: 0006 cost= 0.180386364
+Epoch: 0007 cost= 0.156054059
+Epoch: 0008 cost= 0.138994266
+Epoch: 0009 cost= 0.123092474
+Epoch: 0010 cost= 0.111262804
+Optimization Finished!
+Accuracy: 0.9626
+NEW STRATEGY
+Epoch: 0001 cost= 2.301560364
+Epoch: 0002 cost= 2.301513763
+Epoch: 0003 cost= 2.301564289
+Epoch: 0004 cost= 2.301477794
+Epoch: 0005 cost= 2.301529412
+Epoch: 0006 cost= 2.301435599
+Epoch: 0007 cost= 2.301539899
+Epoch: 0008 cost= 2.301532177
+Epoch: 0009 cost= 2.301512501
+Epoch: 0010 cost= 2.301511727
+Optimization Finished!
+Accuracy: 0.1135
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= 18661095355877504470492876111872.000000000
+Epoch: 0002 cost= 304519734782066624.000000000
+Epoch: 0003 cost= 11964127264114.779296875
+Epoch: 0004 cost= 2.310003071
+Epoch: 0005 cost= 2.310886441
+Epoch: 0006 cost= 2.312777016
+Epoch: 0007 cost= 2.309741766
+Epoch: 0008 cost= 2.307083547
+Epoch: 0009 cost= 2.308934500
+Epoch: 0010 cost= 2.308775202
+Optimization Finished!
+Accuracy: 0.1135
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= 1.016572582
+Epoch: 0002 cost= 0.333204976
+Epoch: 0003 cost= 0.235021989
+Epoch: 0004 cost= 0.188361945
+Epoch: 0005 cost= 0.161342686
+Epoch: 0006 cost= 0.141812839
+Epoch: 0007 cost= 0.126940380
+Epoch: 0008 cost= 0.116721012
+Epoch: 0009 cost= 0.103834121
+Epoch: 0010 cost= 0.094512595
+Optimization Finished!
+Accuracy: 0.9578
+NEW STRATEGY
+Epoch: 0001 cost= 1.205682244
+Epoch: 0002 cost= 0.363845484
+Epoch: 0003 cost= 0.260786477
+Epoch: 0004 cost= 0.206196773
+Epoch: 0005 cost= 0.175762572
+Epoch: 0006 cost= 0.154896315
+Epoch: 0007 cost= 0.135942144
+Epoch: 0008 cost= 0.124469353
+Epoch: 0009 cost= 0.109625508
+Epoch: 0010 cost= 0.102147450
+Optimization Finished!
+Accuracy: 0.9594
+NEW STRATEGY
+Epoch: 0001 cost= 2.301709235
+Epoch: 0002 cost= 2.301619015
+Epoch: 0003 cost= 2.301560730
+Epoch: 0004 cost= 2.301496533
+Epoch: 0005 cost= 2.301453968
+Epoch: 0006 cost= 2.301481043
+Epoch: 0007 cost= 2.301497970
+Epoch: 0008 cost= 2.301526995
+Epoch: 0009 cost= 2.301501179
+Epoch: 0010 cost= 2.301582817
+Optimization Finished!
+Accuracy: 0.1135
+NEW STRATEGY
+Epoch: 0001 cost= 2.291341435
+Epoch: 0002 cost= 1.514623449
+Epoch: 0003 cost= 0.866324036
+Epoch: 0004 cost= 0.505484092
+Epoch: 0005 cost= 0.313525736
+Epoch: 0006 cost= 0.225668030
+Epoch: 0007 cost= 0.186071862
+Epoch: 0008 cost= 0.160525394
+Epoch: 0009 cost= 0.143205372
+Epoch: 0010 cost= 0.127946384
+Optimization Finished!
+Accuracy: 0.9585
+NEW STRATEGY
+Epoch: 0001 cost= 2.301756567
+Epoch: 0002 cost= 2.301477801
+Epoch: 0003 cost= 2.301540693
+Epoch: 0004 cost= 2.301520970
+Epoch: 0005 cost= 2.301516669
+Epoch: 0006 cost= 2.301442973
+Epoch: 0007 cost= 2.301421944
+Epoch: 0008 cost= 2.301562002
+Epoch: 0009 cost= 2.301560762
+Epoch: 0010 cost= 2.301471734
+Optimization Finished!
+Accuracy: 0.1135
+NEW STRATEGY
+Epoch: 0001 cost= 1542674109.373331070
+Epoch: 0002 cost= 2.302394618
+Epoch: 0003 cost= 2.302050466
+Epoch: 0004 cost= 850.365210107
+Epoch: 0005 cost= 2.302012489
+Epoch: 0006 cost= 2.302048268
+Epoch: 0007 cost= 63.489696217
+Epoch: 0008 cost= 2.302145069
+Epoch: 0009 cost= 2.301920404
+Epoch: 0010 cost= 2.302036313
+Optimization Finished!
+Accuracy: 0.1135
+NEW STRATEGY
+Epoch: 0001 cost= 5372156483867687936.000000000
+Epoch: 0002 cost= 368526952.775980592
+Epoch: 0003 cost= 2.368909343
+Epoch: 0004 cost= 2.359895834
+Epoch: 0005 cost= 715346950.036465049
+Epoch: 0006 cost= 2.317803209
+Epoch: 0007 cost= 2.316855503
+Epoch: 0008 cost= 2.316007795
+Epoch: 0009 cost= 2.313795756
+Epoch: 0010 cost= 2.316258158
+Optimization Finished!
+Accuracy: 0.0974
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= 0.937585751
+Epoch: 0002 cost= 0.325141276
+Epoch: 0003 cost= 0.231871309
+Epoch: 0004 cost= 0.195411232
+Epoch: 0005 cost= 0.166991100
+Epoch: 0006 cost= 0.143236895
+Epoch: 0007 cost= 0.125574116
+Epoch: 0008 cost= 0.114527711
+Epoch: 0009 cost= 0.106988627
+Epoch: 0010 cost= 0.094191384
+Optimization Finished!
+Accuracy: 0.9594
+NEW STRATEGY
+Epoch: 0001 cost= 1.168609854
+Epoch: 0002 cost= 0.358669648
+Epoch: 0003 cost= 0.240221775
+Epoch: 0004 cost= 0.199185429
+Epoch: 0005 cost= 0.167356340
+Epoch: 0006 cost= 0.150306043
+Epoch: 0007 cost= 0.134786840
+Epoch: 0008 cost= 0.121467765
+Epoch: 0009 cost= 0.109925576
+Epoch: 0010 cost= 0.099728040
+Optimization Finished!
+Accuracy: 0.9588
+NEW STRATEGY
+Epoch: 0001 cost= 2.301847604
+Epoch: 0002 cost= 2.301615288
+Epoch: 0003 cost= 2.301555092
+Epoch: 0004 cost= 2.301581747
+Epoch: 0005 cost= 2.301565153
+Epoch: 0006 cost= 2.301561665
+Epoch: 0007 cost= 2.301569057
+Epoch: 0008 cost= 2.301578334
+Epoch: 0009 cost= 2.301533585
+Epoch: 0010 cost= 2.301493898
+Optimization Finished!
+Accuracy: 0.1135
+NEW STRATEGY
+Epoch: 0001 cost= 2.285124814
+Epoch: 0002 cost= 1.655342419
+Epoch: 0003 cost= 0.921213254
+Epoch: 0004 cost= 0.425289166
+Epoch: 0005 cost= 0.313209157
+Epoch: 0006 cost= 0.218561512
+Epoch: 0007 cost= 0.190987049
+Epoch: 0008 cost= 0.167230382
+Epoch: 0009 cost= 0.147669739
+Epoch: 0010 cost= 0.134133877
+Optimization Finished!
+Accuracy: 0.9524
+NEW STRATEGY
+Epoch: 0001 cost= 2.301690076
+Epoch: 0002 cost= 2.301489530
+Epoch: 0003 cost= 2.301484172
+Epoch: 0004 cost= 2.301489126
+Epoch: 0005 cost= 2.301491781
+Epoch: 0006 cost= 2.301529991
+Epoch: 0007 cost= 2.301453531
+Epoch: 0008 cost= 2.301553150
+Epoch: 0009 cost= 2.301504622
+Epoch: 0010 cost= 2.301507593
+Optimization Finished!
+Accuracy: 0.1135
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= 1.266172318
+Epoch: 0002 cost= 0.394434293
+Epoch: 0003 cost= 0.268362498
+Epoch: 0004 cost= 0.215112677
+Epoch: 0005 cost= 0.187430329
+Epoch: 0006 cost= 0.163858216
+Epoch: 0007 cost= 0.143239456
+Epoch: 0008 cost= 0.132769560
+Epoch: 0009 cost= 0.119165543
+Epoch: 0010 cost= 0.109947320
+Optimization Finished!
+Accuracy: 0.9597
+NEW STRATEGY
+Epoch: 0001 cost= 1.169918103
+Epoch: 0002 cost= 0.339420763
+Epoch: 0003 cost= 0.240956665
+Epoch: 0004 cost= 0.193599055
+Epoch: 0005 cost= 0.165135278
+Epoch: 0006 cost= 0.145589060
+Epoch: 0007 cost= 0.129740770
+Epoch: 0008 cost= 0.117141163
+Epoch: 0009 cost= 0.105332093
+Epoch: 0010 cost= 0.097662894
+Optimization Finished!
+Accuracy: 0.9612
+NEW STRATEGY
+Epoch: 0001 cost= 2.301934586
+Epoch: 0002 cost= 2.301517290
+Epoch: 0003 cost= 2.301533771
+Epoch: 0004 cost= 2.301555977
+Epoch: 0005 cost= 2.301560662
+Epoch: 0006 cost= 2.301525850
+Epoch: 0007 cost= 2.301586603
+Epoch: 0008 cost= 2.301609059
+Epoch: 0009 cost= 2.301474714
+Epoch: 0010 cost= 2.301575147
+Optimization Finished!
+Accuracy: 0.1135
+NEW STRATEGY
+Epoch: 0001 cost= 2.270832607
+Epoch: 0002 cost= 1.291940131
+Epoch: 0003 cost= 0.906974754
+Epoch: 0004 cost= 0.604527778
+Epoch: 0005 cost= 0.273880599
+Epoch: 0006 cost= 0.208970545
+Epoch: 0007 cost= 0.179466443
+Epoch: 0008 cost= 0.153821068
+Epoch: 0009 cost= 0.136545314
+Epoch: 0010 cost= 0.123548636
+Optimization Finished!
+Accuracy: 0.9546
+NEW STRATEGY
+Epoch: 0001 cost= 2.301652863
+Epoch: 0002 cost= 2.301549574
+Epoch: 0003 cost= 2.301512748
+Epoch: 0004 cost= 2.301531469
+Epoch: 0005 cost= 2.301515319
+Epoch: 0006 cost= 2.301510378
+Epoch: 0007 cost= 2.301553685
+Epoch: 0008 cost= 2.301456916
+Epoch: 0009 cost= 2.301483787
+Epoch: 0010 cost= 2.301497186
+Optimization Finished!
+Accuracy: 0.1135
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= 1.090777910
+Epoch: 0002 cost= 0.330775263
+Epoch: 0003 cost= 0.240318734
+Epoch: 0004 cost= 0.197781883
+Epoch: 0005 cost= 0.171199701
+Epoch: 0006 cost= 0.153394432
+Epoch: 0007 cost= 0.137949934
+Epoch: 0008 cost= 0.124909618
+Epoch: 0009 cost= 0.116336842
+Epoch: 0010 cost= 0.107835779
+Optimization Finished!
+Accuracy: 0.9593
+NEW STRATEGY
+Epoch: 0001 cost= 1.039489449
+Epoch: 0002 cost= 0.336545148
+Epoch: 0003 cost= 0.242540939
+Epoch: 0004 cost= 0.195178449
+Epoch: 0005 cost= 0.166091631
+Epoch: 0006 cost= 0.146836555
+Epoch: 0007 cost= 0.131024583
+Epoch: 0008 cost= 0.117012090
+Epoch: 0009 cost= 0.106046587
+Epoch: 0010 cost= 0.097821587
+Optimization Finished!
+Accuracy: 0.9627
+NEW STRATEGY
+Epoch: 0001 cost= 2.301661827
+Epoch: 0002 cost= 2.301519067
+Epoch: 0003 cost= 2.301534231
+Epoch: 0004 cost= 2.301560300
+Epoch: 0005 cost= 2.301516900
+Epoch: 0006 cost= 2.301379103
+Epoch: 0007 cost= 2.301528422
+Epoch: 0008 cost= 2.301549228
+Epoch: 0009 cost= 2.301487771
+Epoch: 0010 cost= 2.301549874
+Optimization Finished!
+Accuracy: 0.1135
+NEW STRATEGY
+Epoch: 0001 cost= 2.301443853
+Epoch: 0002 cost= 1.670766443
+Epoch: 0003 cost= 0.913266049
+Epoch: 0004 cost= 0.402980513
+Epoch: 0005 cost= 0.246056886
+Epoch: 0006 cost= 0.194531347
+Epoch: 0007 cost= 0.166771582
+Epoch: 0008 cost= 0.141543741
+Epoch: 0009 cost= 0.129284458
+Epoch: 0010 cost= 0.114796151
+Optimization Finished!
+Accuracy: 0.9536
+NEW STRATEGY
+Epoch: 0001 cost= 2.301828133
+Epoch: 0002 cost= 2.301477787
+Epoch: 0003 cost= 2.301576188
+Epoch: 0004 cost= 2.301492770
+Epoch: 0005 cost= 2.301527941
+Epoch: 0006 cost= 2.301480225
+Epoch: 0007 cost= 2.301516123
+Epoch: 0008 cost= 2.301530783
+Epoch: 0009 cost= 2.301541830
+Epoch: 0010 cost= 2.301475650
+Optimization Finished!
+Accuracy: 0.1135
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= 1.156021608
+Epoch: 0002 cost= 0.365799933
+Epoch: 0003 cost= 0.254370360
+Epoch: 0004 cost= 0.210540765
+Epoch: 0005 cost= 0.176865428
+Epoch: 0006 cost= 0.156361663
+Epoch: 0007 cost= 0.138792040
+Epoch: 0008 cost= 0.126632299
+Epoch: 0009 cost= 0.114991182
+Epoch: 0010 cost= 0.105598315
+Optimization Finished!
+Accuracy: 0.9591
+NEW STRATEGY
+Epoch: 0001 cost= 1.213137901
+Epoch: 0002 cost= 0.365273271
+Epoch: 0003 cost= 0.252293205
+Epoch: 0004 cost= 0.205099313
+Epoch: 0005 cost= 0.176195114
+Epoch: 0006 cost= 0.154472259
+Epoch: 0007 cost= 0.140552988
+Epoch: 0008 cost= 0.129175252
+Epoch: 0009 cost= 0.114160429
+Epoch: 0010 cost= 0.104541861
+Optimization Finished!
+Accuracy: 0.958
+NEW STRATEGY
+Epoch: 0001 cost= 2.301582117
+Epoch: 0002 cost= 2.301564704
+Epoch: 0003 cost= 2.301530821
+Epoch: 0004 cost= 2.301556467
+Epoch: 0005 cost= 2.301488516
+Epoch: 0006 cost= 2.301506071
+Epoch: 0007 cost= 2.301539387
+Epoch: 0008 cost= 2.301525490
+Epoch: 0009 cost= 2.301519160
+Epoch: 0010 cost= 2.301539632
+Optimization Finished!
+Accuracy: 0.1135
+NEW STRATEGY
+Epoch: 0001 cost= 2.301022345
+Epoch: 0002 cost= 1.721419653
+Epoch: 0003 cost= 0.823459280
+Epoch: 0004 cost= 0.378450193
+Epoch: 0005 cost= 0.248846655
+Epoch: 0006 cost= 0.202847353
+Epoch: 0007 cost= 0.166989200
+Epoch: 0008 cost= 0.142956387
+Epoch: 0009 cost= 0.129340091
+Epoch: 0010 cost= 0.115048558
+Optimization Finished!
+Accuracy: 0.9619
+NEW STRATEGY
+Epoch: 0001 cost= 2.301747736
+Epoch: 0002 cost= 2.301553745
+Epoch: 0003 cost= 2.301570288
+Epoch: 0004 cost= 2.301513687
+Epoch: 0005 cost= 2.301550400
+Epoch: 0006 cost= 2.301472152
+Epoch: 0007 cost= 2.301493406
+Epoch: 0008 cost= 2.301510123
+Epoch: 0009 cost= 2.301545954
+Epoch: 0010 cost= 2.301484857
+Optimization Finished!
+Accuracy: 0.1135
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= 2996209289264296361984000.000000000
+Epoch: 0002 cost= 2.331594477
+Epoch: 0003 cost= 2.325859085
+Epoch: 0004 cost= 2.316162703
+Epoch: 0005 cost= 2.313413171
+Epoch: 0006 cost= 2.314412903
+Epoch: 0007 cost= 2.315041859
+Epoch: 0008 cost= 2.324168336
+Epoch: 0009 cost= 2.312613554
+Epoch: 0010 cost= 2.318119656
+Optimization Finished!
+Accuracy: 0.0958
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= 1.022470964
+Epoch: 0002 cost= 0.343156278
+Epoch: 0003 cost= 0.244533776
+Epoch: 0004 cost= 0.194749374
+Epoch: 0005 cost= 0.168212525
+Epoch: 0006 cost= 0.149221061
+Epoch: 0007 cost= 0.133483966
+Epoch: 0008 cost= 0.123833483
+Epoch: 0009 cost= 0.114059346
+Epoch: 0010 cost= 0.102064368
+Optimization Finished!
+Accuracy: 0.9574
+NEW STRATEGY
+Epoch: 0001 cost= 1.092409563
+Epoch: 0002 cost= 0.352061903
+Epoch: 0003 cost= 0.241894551
+Epoch: 0004 cost= 0.194639564
+Epoch: 0005 cost= 0.164091902
+Epoch: 0006 cost= 0.148522885
+Epoch: 0007 cost= 0.134451254
+Epoch: 0008 cost= 0.117992967
+Epoch: 0009 cost= 0.111980939
+Epoch: 0010 cost= 0.100642060
+Optimization Finished!
+Accuracy: 0.959
+NEW STRATEGY
+Epoch: 0001 cost= 2.301948501
+Epoch: 0002 cost= 2.301549298
+Epoch: 0003 cost= 2.301520454
+Epoch: 0004 cost= 2.301549464
+Epoch: 0005 cost= 2.301564963
+Epoch: 0006 cost= 2.301513850
+Epoch: 0007 cost= 2.301521622
+Epoch: 0008 cost= 2.301555071
+Epoch: 0009 cost= 2.301542793
+Epoch: 0010 cost= 2.301550359
+Optimization Finished!
+Accuracy: 0.1135
+NEW STRATEGY
+Epoch: 0001 cost= 2.295392669
+Epoch: 0002 cost= 1.536605971
+Epoch: 0003 cost= 0.758246053
+Epoch: 0004 cost= 0.363210526
+Epoch: 0005 cost= 0.241436269
+Epoch: 0006 cost= 0.190952461
+Epoch: 0007 cost= 0.161110035
+Epoch: 0008 cost= 0.139394429
+Epoch: 0009 cost= 0.123652442
+Epoch: 0010 cost= 0.111604747
+Optimization Finished!
+Accuracy: 0.9598
+NEW STRATEGY
+Epoch: 0001 cost= 2.301888640
+Epoch: 0002 cost= 2.301509538
+Epoch: 0003 cost= 2.301492033
+Epoch: 0004 cost= 2.301457365
+Epoch: 0005 cost= 2.301572086
+Epoch: 0006 cost= 2.301434183
+Epoch: 0007 cost= 2.301532367
+Epoch: 0008 cost= 2.301531283
+Epoch: 0009 cost= 2.301467250
+Epoch: 0010 cost= 2.301488114
+Optimization Finished!
+Accuracy: 0.1135
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= 184443748840255815680.000000000
+Epoch: 0002 cost= 2.323720824
+Epoch: 0003 cost= 2.321902671
+Epoch: 0004 cost= 2.332199513
+Epoch: 0005 cost= 2.337274985
+Epoch: 0006 cost= 2.321912611
+Epoch: 0007 cost= 2.318457122
+Epoch: 0008 cost= 2.317050117
+Epoch: 0009 cost= 2.313107046
+Epoch: 0010 cost= 2.595659308
+Optimization Finished!
+Accuracy: 0.1009
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= 1.016236595
+Epoch: 0002 cost= 0.337847750
+Epoch: 0003 cost= 0.246112065
+Epoch: 0004 cost= 0.199132882
+Epoch: 0005 cost= 0.171644577
+Epoch: 0006 cost= 0.150988323
+Epoch: 0007 cost= 0.135951367
+Epoch: 0008 cost= 0.122460216
+Epoch: 0009 cost= 0.112894722
+Epoch: 0010 cost= 0.102381211
+Optimization Finished!
+Accuracy: 0.9618
+NEW STRATEGY
+Epoch: 0001 cost= 1.078961369
+Epoch: 0002 cost= 0.349072618
+Epoch: 0003 cost= 0.253112393
+Epoch: 0004 cost= 0.207441222
+Epoch: 0005 cost= 0.176405801
+Epoch: 0006 cost= 0.157890550
+Epoch: 0007 cost= 0.139028366
+Epoch: 0008 cost= 0.128904062
+Epoch: 0009 cost= 0.115466635
+Epoch: 0010 cost= 0.106999687
+Optimization Finished!
+Accuracy: 0.9637
+SIMPLE INIT~~~~~~~~
+--------------------------
+original eta/gamma: 
+[0.097999997, 0.097999997, 0.1135, 0.097999997, 0.1135, 0.097999997, 0.097999997, 0.097999997, 0.097999997, 0.097999997]
+Avg: 0.1011
+--------------------------
+eta=1.0, gamma=0.25: 
+[0.1135, 0.097999997, 0.097999997, 0.1135, 0.097400002, 0.097999997, 0.097999997, 0.097999997, 0.095799997, 0.1009]
+Avg: 0.10111
+--------------------------
+eta=5.0, gamma=:0.55
+[0.097999997, 0.097999997, 0.097999997, 0.097999997, 0.097999997, 0.097999997, 0.097999997, 0.097999997, 0.097999997, 0.097999997]
+Avg: 0.098
+--------------------------
+eta=.3, gamma=:0.55
+[0.95190001, 0.958, 0.95679998, 0.96259999, 0.95850003, 0.95240003, 0.95459998, 0.95359999, 0.9619, 0.9598]
+Avg: 0.95701
+--------------------------
+eta=0.1, gamma=:0.55
+[0.1135, 0.1135, 0.1135, 0.1135, 0.1135, 0.1135, 0.1135, 0.1135, 0.1135, 0.1135]
+Avg: 0.1135
+--------------------------
+eta=0.3, gamma=:1.0
+[0.1135, 0.1135, 0.1135, 0.1135, 0.1135, 0.1135, 0.1135, 0.1135, 0.1135, 0.1135]
+Avg: 0.1135
+--------------------------
+eta=1.0, gamma=:2.0
+[0.95899999, 0.96079999, 0.95660001, 0.95779997, 0.9594, 0.95969999, 0.95929998, 0.95910001, 0.95740002, 0.96179998]
+Avg: 0.95909
+--------------------------
+eta=1.0, gamma=:5.0
+[0.95959997, 0.96249998, 0.95880002, 0.9594, 0.95880002, 0.9612, 0.96270001, 0.958, 0.95899999, 0.9637]
+Avg: 0.96037
+Extracting /tmp/data/train-images-idx3-ubyte.gz
+Extracting /tmp/data/train-labels-idx1-ubyte.gz
+Extracting /tmp/data/t10k-images-idx3-ubyte.gz
+Extracting /tmp/data/t10k-labels-idx1-ubyte.gz
+NEW STRATEGY
+Epoch: 0001 cost= 2.301682557
+Epoch: 0002 cost= 2.301548165
+Epoch: 0003 cost= 2.301545261
+Epoch: 0004 cost= 2.301570066
+Epoch: 0005 cost= 2.301563199
+Epoch: 0006 cost= 2.301510292
+Epoch: 0007 cost= 2.301550814
+Epoch: 0008 cost= 2.301551775
+Epoch: 0009 cost= 2.301568876
+Epoch: 0010 cost= 2.301520907
+Optimization Finished!
+Accuracy: 0.1135
+NEW STRATEGY
+Epoch: 0001 cost= 2.301068106
+Epoch: 0002 cost= 1.733858210
+Epoch: 0003 cost= 0.829412214
+Epoch: 0004 cost= 0.432388353
+Epoch: 0005 cost= 0.251613138
+Epoch: 0006 cost= 0.197818747
+Epoch: 0007 cost= 0.169791118
+Epoch: 0008 cost= 0.153134483
+Epoch: 0009 cost= 0.131603518
+Epoch: 0010 cost= 0.147788968
+Optimization Finished!
+Accuracy: 0.953
+NEW STRATEGY
+Epoch: 0001 cost= 2.301780800
+Epoch: 0002 cost= 2.301528038
+Epoch: 0003 cost= 2.301505919
+Epoch: 0004 cost= 2.301487922
+Epoch: 0005 cost= 2.301467602
+Epoch: 0006 cost= 2.301554261
+Epoch: 0007 cost= 2.301484625
+Epoch: 0008 cost= 2.301519185
+Epoch: 0009 cost= 2.301523540
+Epoch: 0010 cost= 2.301498374
+Optimization Finished!
+Accuracy: 0.1135
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= 1.181922746
+Epoch: 0002 cost= 0.342162547
+Epoch: 0003 cost= 0.248629989
+Epoch: 0004 cost= 0.201901906
+Epoch: 0005 cost= 0.169439697
+Epoch: 0006 cost= 0.152742034
+Epoch: 0007 cost= 0.135760179
+Epoch: 0008 cost= 0.121297838
+Epoch: 0009 cost= 0.108894990
+Epoch: 0010 cost= 0.102134868
+Optimization Finished!
+Accuracy: 0.9578
+NEW STRATEGY
+Epoch: 0001 cost= 1.144500343
+Epoch: 0002 cost= 0.355516843
+Epoch: 0003 cost= 0.246546784
+Epoch: 0004 cost= 0.195293522
+Epoch: 0005 cost= 0.167658955
+Epoch: 0006 cost= 0.148921778
+Epoch: 0007 cost= 0.132931439
+Epoch: 0008 cost= 0.117084252
+Epoch: 0009 cost= 0.108854805
+Epoch: 0010 cost= 0.097467842
+Optimization Finished!
+Accuracy: 0.9572
+NEW STRATEGY
+Epoch: 0001 cost= 2.301778232
+Epoch: 0002 cost= 2.301572875
+Epoch: 0003 cost= 2.301504603
+Epoch: 0004 cost= 2.301510725
+Epoch: 0005 cost= 2.301457739
+Epoch: 0006 cost= 2.301548528
+Epoch: 0007 cost= 2.301513972
+Epoch: 0008 cost= 2.301548034
+Epoch: 0009 cost= 2.301475811
+Epoch: 0010 cost= 2.301531013
+Optimization Finished!
+Accuracy: 0.1135
+NEW STRATEGY
+Epoch: 0001 cost= 2.298954186
+Epoch: 0002 cost= 1.472301367
+Epoch: 0003 cost= 0.619456998
+Epoch: 0004 cost= 0.333180718
+Epoch: 0005 cost= 0.238107220
+Epoch: 0006 cost= 0.201620131
+Epoch: 0007 cost= 0.170938536
+Epoch: 0008 cost= 0.151840486
+Epoch: 0009 cost= 0.141146687
+Epoch: 0010 cost= 0.127488515
+Optimization Finished!
+Accuracy: 0.9569
+NEW STRATEGY
+Epoch: 0001 cost= 2.301631521
+Epoch: 0002 cost= 2.301492912
+Epoch: 0003 cost= 2.301499857
+Epoch: 0004 cost= 2.301495594
+Epoch: 0005 cost= 2.301485760
+Epoch: 0006 cost= 2.301601792
+Epoch: 0007 cost= 2.301462664
+Epoch: 0008 cost= 2.301474596
+Epoch: 0009 cost= 2.301430770
+Epoch: 0010 cost= 2.301496996
+Optimization Finished!
+Accuracy: 0.1135
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= 226783798436.772888184
+Epoch: 0002 cost= 302.619857890
+Epoch: 0003 cost= 2.326574521
+Epoch: 0004 cost= 1638.496149836
+Epoch: 0005 cost= 2.327172390
+Epoch: 0006 cost= 2.329188375
+Epoch: 0007 cost= 1850.592554143
+Epoch: 0008 cost= 2.318067377
+Epoch: 0009 cost= 5246.639033311
+Epoch: 0010 cost= 2.316426742
+Optimization Finished!
+Accuracy: 0.0958
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= 1.032114481
+Epoch: 0002 cost= 0.334443603
+Epoch: 0003 cost= 0.247595061
+Epoch: 0004 cost= 0.199845233
+Epoch: 0005 cost= 0.167566840
+Epoch: 0006 cost= 0.147235251
+Epoch: 0007 cost= 0.130506980
+Epoch: 0008 cost= 0.119725237
+Epoch: 0009 cost= 0.107792644
+Epoch: 0010 cost= 0.103179125
+Optimization Finished!
+Accuracy: 0.9498
+NEW STRATEGY
+Epoch: 0001 cost= 1.086646534
+Epoch: 0002 cost= 0.340103578
+Epoch: 0003 cost= 0.248013292
+Epoch: 0004 cost= 0.198601710
+Epoch: 0005 cost= 0.171503410
+Epoch: 0006 cost= 0.147119011
+Epoch: 0007 cost= 0.135322234
+Epoch: 0008 cost= 0.119135265
+Epoch: 0009 cost= 0.108563791
+Epoch: 0010 cost= 0.097173419
+Optimization Finished!
+Accuracy: 0.9609
+NEW STRATEGY
+Epoch: 0001 cost= 2.301705445
+Epoch: 0002 cost= 2.301546526
+Epoch: 0003 cost= 2.301539240
+Epoch: 0004 cost= 2.301580509
+Epoch: 0005 cost= 2.301519921
+Epoch: 0006 cost= 2.301541871
+Epoch: 0007 cost= 2.301538875
+Epoch: 0008 cost= 2.301580648
+Epoch: 0009 cost= 2.301500308
+Epoch: 0010 cost= 2.301504133
+Optimization Finished!
+Accuracy: 0.1135
+NEW STRATEGY
+Epoch: 0001 cost= 2.301220361
+Epoch: 0002 cost= 1.820279459
+Epoch: 0003 cost= 0.815908262
+Epoch: 0004 cost= 0.330954153
+Epoch: 0005 cost= 0.233323552
+Epoch: 0006 cost= 0.181662307
+Epoch: 0007 cost= 0.156993777
+Epoch: 0008 cost= 0.139283777
+Epoch: 0009 cost= 0.126256114
+Epoch: 0010 cost= 0.113205311
+Optimization Finished!
+Accuracy: 0.961
+NEW STRATEGY
+Epoch: 0001 cost= 2.301555439
+Epoch: 0002 cost= 2.301546022
+Epoch: 0003 cost= 2.301523166
+Epoch: 0004 cost= 2.301552516
+Epoch: 0005 cost= 2.301471030
+Epoch: 0006 cost= 2.301508206
+Epoch: 0007 cost= 2.301503639
+Epoch: 0008 cost= 2.301495385
+Epoch: 0009 cost= 2.301494187
+Epoch: 0010 cost= 2.301547258
+Optimization Finished!
+Accuracy: 0.1135
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= 1.022049387
+Epoch: 0002 cost= 0.352052573
+Epoch: 0003 cost= 0.247006104
+Epoch: 0004 cost= 0.199650161
+Epoch: 0005 cost= 0.168581599
+Epoch: 0006 cost= 0.150680084
+Epoch: 0007 cost= 0.135428439
+Epoch: 0008 cost= 0.121675012
+Epoch: 0009 cost= 0.112294156
+Epoch: 0010 cost= 0.104515721
+Optimization Finished!
+Accuracy: 0.9601
+NEW STRATEGY
+Epoch: 0001 cost= 1.210944434
+Epoch: 0002 cost= 0.359061390
+Epoch: 0003 cost= 0.253918460
+Epoch: 0004 cost= 0.202736547
+Epoch: 0005 cost= 0.171043984
+Epoch: 0006 cost= 0.149756596
+Epoch: 0007 cost= 0.135431432
+Epoch: 0008 cost= 0.120451091
+Epoch: 0009 cost= 0.107803329
+Epoch: 0010 cost= 0.098968747
+Optimization Finished!
+Accuracy: 0.9608
+NEW STRATEGY
+Epoch: 0001 cost= 2.301987856
+Epoch: 0002 cost= 2.301494670
+Epoch: 0003 cost= 2.301531911
+Epoch: 0004 cost= 2.301536529
+Epoch: 0005 cost= 2.301564629
+Epoch: 0006 cost= 2.301547349
+Epoch: 0007 cost= 2.301495102
+Epoch: 0008 cost= 2.301588104
+Epoch: 0009 cost= 2.301494028
+Epoch: 0010 cost= 2.301586585
+Optimization Finished!
+Accuracy: 0.1135
+NEW STRATEGY
+Epoch: 0001 cost= 2.301591728
+Epoch: 0002 cost= 1.911118274
+Epoch: 0003 cost= 1.149629422
+Epoch: 0004 cost= 0.610770350
+Epoch: 0005 cost= 0.323637116
+Epoch: 0006 cost= 0.233837021
+Epoch: 0007 cost= 0.191726667
+Epoch: 0008 cost= 0.159831745
+Epoch: 0009 cost= 0.151604023
+Epoch: 0010 cost= 0.129612591
+Optimization Finished!
+Accuracy: 0.9556
+NEW STRATEGY
+Epoch: 0001 cost= 2.301641301
+Epoch: 0002 cost= 2.301605008
+Epoch: 0003 cost= 2.301519366
+Epoch: 0004 cost= 2.301467790
+Epoch: 0005 cost= 2.301553522
+Epoch: 0006 cost= 2.301542892
+Epoch: 0007 cost= 2.301496104
+Epoch: 0008 cost= 2.301463528
+Epoch: 0009 cost= 2.301479983
+Epoch: 0010 cost= 2.301500555
+Optimization Finished!
+Accuracy: 0.1135
+NEW STRATEGY
+Epoch: 0001 cost= 2.293656827
+Epoch: 0002 cost= 2.563834080
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= 2339225168002608638459904.000000000
+Epoch: 0002 cost= 2.327496373
+Epoch: 0003 cost= 2.320389445
+Epoch: 0004 cost= 2.321447306
+Epoch: 0005 cost= 2.354966588
+Epoch: 0006 cost= 2.328865188
+Epoch: 0007 cost= 2.334130664
+Epoch: 0008 cost= 2.333283708
+Epoch: 0009 cost= 2.334724552
+Epoch: 0010 cost= 2.341512043
+Optimization Finished!
+Accuracy: 0.1009
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= 1.104785644
+Epoch: 0002 cost= 0.343650763
+Epoch: 0003 cost= 0.254961488
+Epoch: 0004 cost= 0.197632378
+Epoch: 0005 cost= 0.169241899
+Epoch: 0006 cost= 0.150376525
+Epoch: 0007 cost= 0.134546303
+Epoch: 0008 cost= 0.122540900
+Epoch: 0009 cost= 0.111998812
+Epoch: 0010 cost= 0.100741755
+Optimization Finished!
+Accuracy: 0.9579
+NEW STRATEGY
+Epoch: 0001 cost= 1.119697154
+Epoch: 0002 cost= 0.338162141
+Epoch: 0003 cost= 0.240614178
+Epoch: 0004 cost= 0.192153642
+Epoch: 0005 cost= 0.166209164
+Epoch: 0006 cost= 0.146799133
+Epoch: 0007 cost= 0.128690853
+Epoch: 0008 cost= 0.119480344
+Epoch: 0009 cost= 0.106895868
+Epoch: 0010 cost= 0.098581275
+Optimization Finished!
+Accuracy: 0.9573
+NEW STRATEGY
+Epoch: 0001 cost= 2.302114058
+Epoch: 0002 cost= 2.301533176
+Epoch: 0003 cost= 2.301573335
+Epoch: 0004 cost= 2.301521196
+Epoch: 0005 cost= 2.301555325
+Epoch: 0006 cost= 2.301546712
+Epoch: 0007 cost= 2.301547776
+Epoch: 0008 cost= 2.301441101
+Epoch: 0009 cost= 2.301538144
+Epoch: 0010 cost= 2.301487994
+Optimization Finished!
+Accuracy: 0.1135
+NEW STRATEGY
+Epoch: 0001 cost= 2.301091550
+Epoch: 0002 cost= 1.863641250
+Epoch: 0003 cost= 1.260891202
+Epoch: 0004 cost= 0.634055425
+Epoch: 0005 cost= 0.326375825
+Epoch: 0006 cost= 0.224102129
+Epoch: 0007 cost= 0.192995263
+Epoch: 0008 cost= 0.163972047
+Epoch: 0009 cost= 0.148241715
+Epoch: 0010 cost= 0.131626680
+Optimization Finished!
+Accuracy: 0.9568
+NEW STRATEGY
+Epoch: 0001 cost= 2.301647113
+Epoch: 0002 cost= 2.301512250
+Epoch: 0003 cost= 2.301470610
+Epoch: 0004 cost= 2.301456705
+Epoch: 0005 cost= 2.301504872
+Epoch: 0006 cost= 2.301542367
+Epoch: 0007 cost= 2.301468365
+Epoch: 0008 cost= 2.301529170
+Epoch: 0009 cost= 2.301479368
+Epoch: 0010 cost= 2.301536352
+Optimization Finished!
+Accuracy: 0.1135
+NEW STRATEGY
+Epoch: 0001 cost= 2.377340576
+Epoch: 0002 cost= 2.302710483
+Epoch: 0003 cost= 2.301943659
+Epoch: 0004 cost= 2.301613955
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= 2.301522781
+Epoch: 0007 cost= 2.301610176
+Epoch: 0008 cost= 2.301570243
+Epoch: 0009 cost= 2.301573022
+Epoch: 0010 cost= 2.301507628
+Optimization Finished!
+Accuracy: 0.1135
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= 1.295444372
+Epoch: 0002 cost= 0.372290582
+Epoch: 0003 cost= 0.255692393
+Epoch: 0004 cost= 0.203882966
+Epoch: 0005 cost= 0.171430300
+Epoch: 0006 cost= 0.153892568
+Epoch: 0007 cost= 0.137011579
+Epoch: 0008 cost= 0.121679835
+Epoch: 0009 cost= 0.110845056
+Epoch: 0010 cost= 0.102242381
+Optimization Finished!
+Accuracy: 0.9573
+NEW STRATEGY
+Epoch: 0001 cost= 1.107833575
+Epoch: 0002 cost= 0.336007595
+Epoch: 0003 cost= 0.241645820
+Epoch: 0004 cost= 0.191171528
+Epoch: 0005 cost= 0.165512007
+Epoch: 0006 cost= 0.146640889
+Epoch: 0007 cost= 0.134051730
+Epoch: 0008 cost= 0.117132982
+Epoch: 0009 cost= 0.107114737
+Epoch: 0010 cost= 0.101068117
+Optimization Finished!
+Accuracy: 0.9565
+NEW STRATEGY
+Epoch: 0001 cost= 2.301656062
+Epoch: 0002 cost= 2.301500243
+Epoch: 0003 cost= 2.301501839
+Epoch: 0004 cost= 2.301514992
+Epoch: 0005 cost= 2.301522806
+Epoch: 0006 cost= 2.301579131
+Epoch: 0007 cost= 2.301564810
+Epoch: 0008 cost= 2.301514792
+Epoch: 0009 cost= 2.301575824
+Epoch: 0010 cost= 2.301521119
+Optimization Finished!
+Accuracy: 0.1135
+NEW STRATEGY
+Epoch: 0001 cost= 2.302034803
+Epoch: 0002 cost= 1.817942948
+Epoch: 0003 cost= 0.975321547
+Epoch: 0004 cost= 0.621188666
+Epoch: 0005 cost= 0.406069737
+Epoch: 0006 cost= 0.228119263
+Epoch: 0007 cost= 0.186408873
+Epoch: 0008 cost= 0.159642590
+Epoch: 0009 cost= 0.140154722
+Epoch: 0010 cost= 0.129369470
+Optimization Finished!
+Accuracy: 0.9585
+NEW STRATEGY
+Epoch: 0001 cost= 2.301625284
+Epoch: 0002 cost= 2.301593124
+Epoch: 0003 cost= 2.301507512
+Epoch: 0004 cost= 2.301557315
+Epoch: 0005 cost= 2.301536290
+Epoch: 0006 cost= 2.301513514
+Epoch: 0007 cost= 2.301569318
+Epoch: 0008 cost= 2.301439421
+Epoch: 0009 cost= 2.301472531
+Epoch: 0010 cost= 2.301456789
+Optimization Finished!
+Accuracy: 0.1135
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= 69127.486538304
+Epoch: 0002 cost= 2.312741044
+Epoch: 0003 cost= 2.308526115
+Epoch: 0004 cost= 2.306683885
+Epoch: 0005 cost= 2.304079159
+Epoch: 0006 cost= 2.303886614
+Epoch: 0007 cost= 2.304389365
+Epoch: 0008 cost= 2.303085390
+Epoch: 0009 cost= 2.303196370
+Epoch: 0010 cost= 2.303017937
+Optimization Finished!
+Accuracy: 0.1135
+NEW STRATEGY
+Epoch: 0001 cost= 1.084757006
+Epoch: 0002 cost= 0.352770075
+Epoch: 0003 cost= 0.247712834
+Epoch: 0004 cost= 0.207702237
+Epoch: 0005 cost= 0.172253253
+Epoch: 0006 cost= 0.156829788
+Epoch: 0007 cost= 0.138731633
+Epoch: 0008 cost= 0.126809351
+Epoch: 0009 cost= 0.115448827
+Epoch: 0010 cost= 0.107855175
+Optimization Finished!
+Accuracy: 0.9593
+NEW STRATEGY
+Epoch: 0001 cost= 1.268225592
+Epoch: 0002 cost= 0.384158436
+Epoch: 0003 cost= 0.252679815
+Epoch: 0004 cost= 0.197388248
+Epoch: 0005 cost= 0.168473976
+Epoch: 0006 cost= 0.146849769
+Epoch: 0007 cost= 0.131500800
+Epoch: 0008 cost= 0.119335182
+Epoch: 0009 cost= 0.110675920
+Epoch: 0010 cost= 0.099860057
+Optimization Finished!
+Accuracy: 0.9593
+NEW STRATEGY
+Epoch: 0001 cost= 2.301793471
+Epoch: 0002 cost= 2.301587016
+Epoch: 0003 cost= 2.301571595
+Epoch: 0004 cost= 2.301581080
+Epoch: 0005 cost= 2.301462703
+Epoch: 0006 cost= 2.301556344
+Epoch: 0007 cost= 2.301550594
+Epoch: 0008 cost= 2.301516889
+Epoch: 0009 cost= 2.301447776
+Epoch: 0010 cost= 2.301492073
+Optimization Finished!
+Accuracy: 0.1135
+NEW STRATEGY
+Epoch: 0001 cost= 2.262515557
+Epoch: 0002 cost= 1.796143024
+Epoch: 0003 cost= 1.260944876
+Epoch: 0004 cost= 0.727496283
+Epoch: 0005 cost= 0.398235941
+Epoch: 0006 cost= 0.275713048
+Epoch: 0007 cost= 0.210385966
+Epoch: 0008 cost= 0.176682754
+Epoch: 0009 cost= 0.157404547
+Epoch: 0010 cost= 0.141024172
+Optimization Finished!
+Accuracy: 0.9592
+NEW STRATEGY
+Epoch: 0001 cost= 2.301731886
+Epoch: 0002 cost= 2.301533094
+Epoch: 0003 cost= 2.301423905
+Epoch: 0004 cost= 2.301487478
+Epoch: 0005 cost= 2.301512758
+Epoch: 0006 cost= 2.301503818
+Epoch: 0007 cost= 2.301577974
+Epoch: 0008 cost= 2.301523385
+Epoch: 0009 cost= 2.301516932
+Epoch: 0010 cost= 2.301493341
+Optimization Finished!
+Accuracy: 0.1135
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= 4566576147170.294921875
+Epoch: 0002 cost= 2.317277102
+Epoch: 0003 cost= 2.314311263
+Epoch: 0004 cost= 2.313759401
+Epoch: 0005 cost= 2.311395084
+Epoch: 0006 cost= 2.313309834
+Epoch: 0007 cost= 2.312719667
+Epoch: 0008 cost= 2.307359963
+Epoch: 0009 cost= 2.310684885
+Epoch: 0010 cost= 2.307846151
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= 1.275947086
+Epoch: 0002 cost= 0.378828734
+Epoch: 0003 cost= 0.262633992
+Epoch: 0004 cost= 0.211518624
+Epoch: 0005 cost= 0.176948019
+Epoch: 0006 cost= 0.156557958
+Epoch: 0007 cost= 0.144313100
+Epoch: 0008 cost= 0.129332441
+Epoch: 0009 cost= 0.118196032
+Epoch: 0010 cost= 0.109036869
+Optimization Finished!
+Accuracy: 0.9611
+NEW STRATEGY
+Epoch: 0001 cost= 1.136998846
+Epoch: 0002 cost= 0.355253486
+Epoch: 0003 cost= 0.245439823
+Epoch: 0004 cost= 0.200695253
+Epoch: 0005 cost= 0.167707923
+Epoch: 0006 cost= 0.147214915
+Epoch: 0007 cost= 0.128261588
+Epoch: 0008 cost= 0.115659570
+Epoch: 0009 cost= 0.104340351
+Epoch: 0010 cost= 0.097070477
+Optimization Finished!
+Accuracy: 0.9574
+NEW STRATEGY
+Epoch: 0001 cost= 2.301691625
+Epoch: 0002 cost= 2.301599641
+Epoch: 0003 cost= 2.301602200
+Epoch: 0004 cost= 2.301638947
+Epoch: 0005 cost= 2.301554396
+Epoch: 0006 cost= 2.301587472
+Epoch: 0007 cost= 2.301605148
+Epoch: 0008 cost= 2.301548073
+Epoch: 0009 cost= 2.301513591
+Epoch: 0010 cost= 2.301531365
+Optimization Finished!
+Accuracy: 0.1135
+NEW STRATEGY
+Epoch: 0001 cost= 2.301473765
+Epoch: 0002 cost= 1.807136150
+Epoch: 0003 cost= 0.742849931
+Epoch: 0004 cost= 0.355575263
+Epoch: 0005 cost= 0.435173003
+Epoch: 0006 cost= 0.213510283
+Epoch: 0007 cost= 0.173697613
+Epoch: 0008 cost= 0.150323288
+Epoch: 0009 cost= 0.135372893
+Epoch: 0010 cost= 0.121791360
+Optimization Finished!
+Accuracy: 0.9609
+NEW STRATEGY
+Epoch: 0001 cost= 2.301518195
+Epoch: 0002 cost= 2.301499072
+Epoch: 0003 cost= 2.301481713
+Epoch: 0004 cost= 2.301391800
+Epoch: 0005 cost= 2.301575204
+Epoch: 0006 cost= 2.301497713
+Epoch: 0007 cost= 2.301485082
+Epoch: 0008 cost= 2.301512902
+Epoch: 0009 cost= 2.301497901
+Epoch: 0010 cost= 2.301516595
+Optimization Finished!
+Accuracy: 0.1135
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= nan
+Epoch: 0002 cost= nan
+Epoch: 0003 cost= nan
+Epoch: 0004 cost= nan
+Epoch: 0005 cost= nan
+Epoch: 0006 cost= nan
+Epoch: 0007 cost= nan
+Epoch: 0008 cost= nan
+Epoch: 0009 cost= nan
+Epoch: 0010 cost= nan
+Optimization Finished!
+Accuracy: 0.098
+NEW STRATEGY
+Epoch: 0001 cost= 1.241521853
+Epoch: 0002 cost= 0.373918380
+Epoch: 0003 cost= 0.257163157
+Epoch: 0004 cost= 0.207121740
+Epoch: 0005 cost= 0.178583215
+Epoch: 0006 cost= 0.157309467
+Epoch: 0007 cost= 0.142681173
+Epoch: 0008 cost= 0.129081391
+Epoch: 0009 cost= 0.118282223
+Epoch: 0010 cost= 0.108087140
+Optimization Finished!

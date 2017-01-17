@@ -3,9 +3,10 @@ from tensorflow.examples.tutorials.mnist import input_data
 import tensorflow as tf
 from tensorflow.python.framework import ops
 from tensorflow.python.ops import random_ops
+from tensorflow.python.ops import math_ops
 import numpy as np
 
-def percept10(mnist, noise, lr, n_hidden, numEpochs, wdev, bdev):
+def percept10(mnist, noise, lr, n_hidden, numEpochs, wdev, bdev, orig, eta, gamma):
 
     # Parameters
     learning_rate = lr
@@ -96,14 +97,20 @@ def percept10(mnist, noise, lr, n_hidden, numEpochs, wdev, bdev):
     cost = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(pred, y))
 
     if (noise == 0):
+        print("NONOISE")
         train_opt = tf.train.GradientDescentOptimizer(learning_rate=learning_rate).minimize(cost)
-    else:
+    elif (not orig):
+        print("NEW STRATEGY")
         optimizer = tf.train.GradientDescentOptimizer(learning_rate=learning_rate)
+        global_step = tf.Variable(0, name='global_step', trainable=False)
 
         grads_and_vars = optimizer.compute_gradients(cost)
         gradients, variables = zip(*grads_and_vars)
         noisy_gradients = []
         for gradient in gradients:
+
+            sigma=1.0
+
             if gradient is None:
               noisy_gradients.append(None)
               continue
@@ -111,12 +118,42 @@ def percept10(mnist, noise, lr, n_hidden, numEpochs, wdev, bdev):
               gradient_shape = gradient.dense_shape
             else:
               gradient_shape = gradient.get_shape()
+              # eta = 5.0
+              # gamma = .55
+
+              etaT = ops.convert_to_tensor(eta, name="eta")
+              gammaT = ops.convert_to_tensor(gamma, name="gamma")
+
+              dtype = etaT.dtype
+              sigma = tf.divide(etaT, tf.pow(tf.add(tf.to_float(global_step), ops.convert_to_tensor(1.0)), gammaT))
+
+            noise = random_ops.truncated_normal(gradient_shape, stddev=sigma) * gradient_noise_scale
+            noisy_gradients.append(gradient + noise)
+
+        noisy_grads_and_vars = list(zip(noisy_gradients, variables))
+        train_opt = optimizer.apply_gradients(noisy_grads_and_vars, global_step=global_step)
+
+    else:
+        print("ORIG NOISE")
+        optimizer = tf.train.GradientDescentOptimizer(learning_rate=learning_rate)
+        grads_and_vars = optimizer.compute_gradients(cost)
+        gradients, variables = zip(*grads_and_vars)
+        noisy_gradients = []
+        for gradient in gradients:
+
+            if gradient is None:
+              noisy_gradients.append(None)
+              continue
+            if isinstance(gradient, ops.IndexedSlices):
+              gradient_shape = gradient.dense_shape
+            else:
+              gradient_shape = gradient.get_shape()
+              
             noise = random_ops.truncated_normal(gradient_shape) * gradient_noise_scale
             noisy_gradients.append(gradient + noise)
 
         noisy_grads_and_vars = list(zip(noisy_gradients, variables))
         train_opt = optimizer.apply_gradients(noisy_grads_and_vars)
-
 
     # Initializing the variables
     init = tf.initialize_all_variables()
@@ -127,10 +164,16 @@ def percept10(mnist, noise, lr, n_hidden, numEpochs, wdev, bdev):
 
         # Training cycle
         for epoch in range(training_epochs):
+
             avg_cost = 0.
             total_batch = int(mnist.train.num_examples/batch_size)
+
             # Loop over all batches
             for i in range(total_batch):
+
+                #print global_step here
+                print('global_step: %s' % tf.train.global_step(sess, global_step))
+
                 batch_x, batch_y = mnist.train.next_batch(batch_size)
                 # Run optimization op (backprop) and cost op (to get loss value)
                 _, c = sess.run([train_opt, cost], feed_dict={x: batch_x,
@@ -158,40 +201,48 @@ def testMain():
     eps = 10  #how many epochs per net?
     
     #simple init
+    noise_orig_init0 = [0]*n
     noise_init0 = [0]*n
     znoise_init0 = [0]*n
     
     #good init
+    noise_orig_init1 = [0]*n
     noise_init1 = [0]*n
     znoise_init1 = [0]*n
     
     #my init
     noise_initm = [0]*n
     znoise_initm = [0]*n
-    #my init tests (re)
+    noise_orig_initm = [0]*n
 
     print("my init tests")
     for i in range(n):
-        znoise_initm[i] = percept10(mnist, noise=0, lr =.005, n_hidden = 50, numEpochs = eps, wdev = 1/math.sqrt(50), bdev = 1/math.sqrt(50))
-        noise_initm[i] = percept10(mnist, noise=1, lr =.005, n_hidden = 50, numEpochs = eps, wdev =  1/math.sqrt(50), bdev = 1/math.sqrt(50))
+        print("---------loop: ",i)
+        noise_orig_initm[i] = percept10(mnist, noise=1, lr =.20, n_hidden = 50, numEpochs = eps, wdev =  1/math.sqrt(50), bdev = 1/math.sqrt(50), orig = True, eta=0.3,gamma=0.55)
+        znoise_initm[i] = percept10(mnist, noise=0, lr =.20, n_hidden = 50, numEpochs = eps, wdev = 1/math.sqrt(50), bdev = 1/math.sqrt(50), orig=False, eta=0.3,gamma=0.55)
+        noise_initm[i] = percept10(mnist, noise=1, lr =.005, n_hidden = 50, numEpochs = eps, wdev =  1/math.sqrt(50), bdev = 1/math.sqrt(50), orig=False, eta=0.3,gamma=0.55)
     
     
     #simple init tests (.01 stdev for weights and biases)
     print("simple init tests")
     for i in range(n):
-        znoise_init0[i] = percept10(mnist, noise=0, lr =.005, n_hidden = 50, numEpochs = eps, wdev = .01, bdev = .01)
-        noise_init0[i] = percept10(mnist, noise=1, lr =.005, n_hidden = 50, numEpochs = eps, wdev = .01, bdev = .01)
+        print("----------loop: ",i)
+        #noise_orig_init0[i] = percept10(mnist, noise=1, lr =.20, n_hidden = 50, numEpochs = eps, wdev = .01, bdev = .01, orig=True, eta=0.3, gamma=0.55)
+        #znoise_init0[i] = percept10(mnist, noise=0, lr =.20, n_hidden = 50, numEpochs = eps, wdev = .01, bdev = .01, orig=False, eta=0.3, gamma=0.55)
+        noise_init0[i] = percept10(mnist, noise=1, lr =.005, n_hidden = 50, numEpochs = eps, wdev = .01, bdev = .01, orig=False, eta=0.3, gamma=0.55)
         
-    #good init (derived in He et. al) tests
+    good init (derived in He et. al) tests
     print("good init tests")
     for i in range(n):
-        znoise_init1[i] = percept10(mnist, noise=0, lr =.005, n_hidden = 50, numEpochs = eps, wdev = math.sqrt(2/50), bdev = 0)
-        noise_init1[i] = percept10(mnist, noise=1, lr =.005, n_hidden = 50, numEpochs = eps, wdev =  math.sqrt(2/50), bdev = 0)
+        print("---------loop: ",i)
+        #noise_orig_init1[i] = percept10(mnist, noise=1, lr =.20, n_hidden = 50, numEpochs = eps, wdev = math.sqrt(2/50), bdev = 0.001, orig=True, eta=0.3, gamma=0.55) 
+        #znoise_init1[i] = percept10(mnist, noise=0, lr =.20, n_hidden = 50, numEpochs = eps, wdev = math.sqrt(2/50), bdev = 0.001, orig=False, eta=0.3, gamma=0.55)
+        noise_init1[i] = percept10(mnist, noise=1, lr =.005, n_hidden = 50, numEpochs = eps, wdev =  math.sqrt(2.0/50.0), bdev = 0., orig=False, eta=0.3, gamma=0.55)
         
-    return noise_init0, znoise_init0, noise_init1, znoise_init1, noise_initm, znoise_initm
+    return noise_orig_init0, noise_init0, znoise_init0, noise_orig_init1, noise_init1, znoise_init1, noise_orig_initm, noise_initm, znoise_initm
 
 
-n_i0, zn_i0, n_i1, zn_i1, n_im, zn_im = testMain()
+noi0, ni0, zni0, noi1, ni1, zni1, noim, nim, znim = testMain()
 
 import pickle
 
@@ -199,67 +250,45 @@ import pickle
 
 # Saving the objects:
 with open('mnist_results.pickle', 'wb') as f:  # Python 3: open(..., 'wb')
-    pickle.dump([n_i0, zn_i0, n_i1, zn_i1, n_im, zn_im], f)
+    pickle.dump([noi0, ni0, zni0, noi1, ni1, zni1, noim, nim, znim], f)
 
 # Getting back the objects:
 with open('mnist_results.pickle', 'rb') as f:  # Python 3: open(..., 'rb')
-    n_i0, zn_i0, n_i1, zn_i1, n_im, zn_im = pickle.load(f)
+    noi0, ni0, zni0, noi1, ni1, zni1, noim, nim, znim = pickle.load(f)
 
 
     print ("-----------------------")
-    print("Simple Init, Noise")
-    print(n_i0)
+    print("Simple Init, Scaled Noise")
+    print(ni0)
     print("mean: ")
-    print (np.mean(n_i0))
+    print (np.mean(ni0))
     print("median: ")
-    print (np.median(n_i0))
+    print (np.median(ni0))
     print ("stddev: ")
-    print (np.std(n_i0))
-    print ("\n")
-    print("Simple Init, No Noise")
-    print(zn_i0)
-    print("mean: ")
-    print (np.mean(zn_i0))
-    print("median: ")
-    print (np.median(zn_i0))
-    print ("stddev: ")
-    print (np.std(zn_i0))
+    print (np.std(ni0))
+
 
     print ("-----------------------")
-    print("Good Init, Noise")
-    print(n_i1)
+    print("Good Init, Scaled Noise")
+    print(ni1)
     print("mean: ")
-    print (np.mean(n_i1))
+    print (np.mean(ni1))
     print("median: ")
-    print (np.median(n_i1))
+    print (np.median(ni1))
     print ("stddev: ")
-    print (np.std(n_i1))
-    print ("\n")
-    print("Good Init, No Noise")
-    print(zn_i1)
-    print("mean: ")
-    print (np.mean(zn_i1))
-    print("median: ")
-    print (np.median(zn_i1))
-    print ("stddev: ")
-    print (np.std(zn_i1))
+    print (np.std(ni1))
+
+
 
     print ("-----------------------")
-    print("My Init, Noise")
-    print(n_im)
+    print("My Init, Scaled Noise")
+    print(nim)
     print("mean: ")
-    print (np.mean(n_im))
+    print (np.mean(nim))
     print("median: ")
-    print (np.median(n_im))
+    print (np.median(nim))
     print ("stddev: ")
-    print (np.std(n_im))
-    print ("\n")
-    print("My Init, No Noise")
-    print(zn_im)
-    print("mean: ")
-    print (np.mean(zn_im))
-    print("median: ")
-    print (np.median(zn_im))
-    print ("stddev: ")
-    print (np.std(zn_im))
+    print (np.std(nim))
+
+
 
